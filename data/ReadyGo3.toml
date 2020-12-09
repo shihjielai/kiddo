@@ -1,0 +1,16 @@
+publication = "ready3"
+urlPrefix = "https://s3.aws.com/"
+
+[[cds]]
+    cd = "CD1"
+    [[cds.tracks]]
+        startTrack = 1
+        endTrack = 50
+[[cds]]
+    cd = "CD2"
+    [[cds.tracks]]
+        startTrack = 1
+        endTrack = 5
+    [[cds.tracks]] 
+        startTrack = 7
+        endTrack = 10       

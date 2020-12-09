@@ -1,0 +1,19 @@
+publication = "dino3"
+urlPrefix = "https://s3.aws.com/"
+
+[[cds]]
+    cd = "CD1"
+    [[cds.tracks]]
+        startTrack = 1
+        endTrack = 20
+    [[cds.tracks]]
+        startTrack = 25
+        endTrack = 40
+    [[cds.tracks]]
+        startTrack = 42
+        endTrack = 50 
+[[cds]]
+    cd = "CD2"
+    [[cds.tracks]]
+        startTrack = 1
+        endTrack = 50
