@@ -252,34 +252,32 @@
     <script>
       $(function(){
         hideCD(2);
-      });
 
-
-      function hideCD(tabIndex) { 
+        function hideCD(tabIndex) { 
         trackDiv = document.getElementById(`tab-CD${tabIndex}`);
         trackDiv.style.display = "none";
-      }
+        }
 
-      function showCD(tabIndex) { 
-        trackDiv = document.getElementById(`tab-CD${tabIndex}`);
-        trackDiv.style.display = "block";
-        trackDiv.style.visibility = "visible";
-      }
+        function showCD(tabIndex) { 
+          trackDiv = document.getElementById(`tab-CD${tabIndex}`);
+          trackDiv.style.display = "block";
+          trackDiv.style.visibility = "visible";
+        }
 
-      $("#CD1").click(function(){
-        $(this).siblings().removeClass("active");
-        $(this).addClass("active");
-        hideCD(2);
-        showCD(1);
-      })
+        $("#CD1").click(function(){
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+          hideCD(2);
+          showCD(1);
+        })
 
-      $("#CD2").click(function(){
-        $(this).siblings().removeClass("active");
-        $(this).addClass("active");
-        hideCD(1);
-        showCD(2);
-      })
-
+        $("#CD2").click(function(){
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+          hideCD(1);
+          showCD(2);
+        })
+      });
     </script>
 
 </body>
