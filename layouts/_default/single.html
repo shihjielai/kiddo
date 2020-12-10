@@ -47,6 +47,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
     <style type="text/css">
     .header-nav {
@@ -56,6 +57,7 @@
         background-repeat: no-repeat;
         background-color: rgb(96, 221, 240);
         background-position: right bottom;
+        overflow: hidden;
     }
 
     .header-player {
@@ -68,6 +70,7 @@
         background-color:#e4e4e4;  
         flex-grow:1;  /*充滿剩餘的空間*/
         overflow-y: auto;
+        margin: 0px auto;
     }
 
     footer {
@@ -88,13 +91,13 @@
         background-color: white;
         margin:1em;
         box-shadow: 2px 2px 5px grey;
+        margin: 0px auto;
     }
     .cdPages {
      display: flex;
      justify-content:flex-start;
      height: 50px;
      background-color: #ffffff;
- 
     }
     #CD1{
 
@@ -107,30 +110,28 @@
         font-size: 25px;
         margin-left:15px;
         border-radius: 10%;
-        box-shadow:2px 2px 2px darkorange;
+        box-shadow:2px 2px 2px rgb(177, 196, 173);
     }
     #CD2{
     
         width: 25%;
-        background-color:rgb(213, 226, 238);
+        background-color:rgb(241, 151, 0);
         display: flex;
         justify-content: center;
         align-items:center;
-        color:#666666;
+        color:#ffffff;
         font-size: 25px;
         margin-left:15px;
         border-radius: 10%;
         box-shadow:2px 2px 2px rgb(177, 196, 173);
-     
     }
     .header-player{
         display: flex;
         justify-content: center;
         align-items: center;
- 
-  
+        margin: 0px auto;
     }
-    @media (min-width: 1199px) and (max-width: 1920px){
+    @media (min-width: 1199px) and (max-width: 4096px){
       header.header-player{
         width: 992px;
       }
@@ -146,7 +147,7 @@
         width: 930px;
       }
       #CD1, #CD2{
-        width:118.25px;
+        width: 116px;
       }
       section.paper, section.main {
         width: 930px;
@@ -157,7 +158,7 @@
         width: 768px;
       }
       #CD1, #CD2{
-        width:120.5px;
+        width: 116px;
       }
       section.paper, section.main {
         width: 768px;
@@ -168,7 +169,7 @@
         width: 576px;
       }
       #CD1, #CD2{
-        width:122.75px;
+        width: 116px;
       }
       section.paper, section.main {
         width: 576px;
@@ -176,27 +177,34 @@
     }
     @media screen and (max-width: 575px){
       header.header-player{
-        width: 435px;
+        width: 500px;
       }
       #CD1, #CD2{
-        width: 125px;
+        width: 116px;
       }
-      section.paper{
-        width: 435px;
-        margin-left: 50px;
-      }
-      section.main {
-        width: 435px;
+      section.paper, section.main {
+        width: 500px;
       }
     }
+
+    #CD1:hover, #CD2:hover {
+      background-color: rgb(153, 153, 153);
+      cursor:pointer;
+    }
+
+    #CD1.active, #CD2.active {
+      background-color: rgb(153, 153, 153);
+    } 
+
+
     </style>
 </head>
 <body>
     <header class="header-nav">
-        <img src="/images/ReadyGo3.jpg" alt="" style="width:20%">
+        <img src="/images/ReadyGo3.jpg" alt="" style="width:20%; overflow: hidden;">
     </header>
     <div class="cdPages">
-        <div id="CD1">CD1</div>
+        <div id="CD1" class="active">CD1</div>
         <div id="CD2">CD2</div>
     </div>
   
@@ -217,15 +225,17 @@
           {{range .cds}}
                {{$cd := .cd}}
                <h2 style="background-color: brown; color: white">{{.cd}}</h2>
-               {{range .tracks}}
-                    {{range $i, $sequence := (seq .startTrack .endTrack)}}
-                         <div style="background-color:bisque">
-                              <h3>title: {{printf "Track %02d" $sequence}}</h3>
-                              {{$uniqueFilename := (print $publication "-" $cd "-" (printf "track%02d" $sequence))}}
-                              <h3>url: {{print $prefix (md5 $uniqueFilename) ".mp3"}}</h3>
-                         </div>
-                    {{end}}
-               {{end}}
+               <div id="tab-{{.cd}}">
+                {{range .tracks}}
+                      {{range $i, $sequence := (seq .startTrack .endTrack)}}
+                          <div style="background-color:bisque; margin: 0px auto" class="track">
+                                <h3>title: {{printf "Track %02d" $sequence}}</h3>
+                                {{$uniqueFilename := (print $publication "-" $cd "-" (printf "track%02d" $sequence))}}
+                                <h3>url: {{print $prefix (md5 $uniqueFilename) ".mp3"}}</h3>
+                          </div>
+                      {{end}}
+                {{end}}
+               </div>
           {{end}}
      {{end}}
      <h3>{{$title}}</h3>
@@ -234,5 +244,26 @@
 
     <footer></footer>
     {{ partial "footer" . }}
+
+    <script>
+      function toggleCD(tabIndex) { 
+        trackDiv = document.getElementById(`tab-CD${tabIndex}`);
+        trackDiv.style.display = "none";
+      }
+
+      $("#CD1").click(function(){
+        $(this).siblings().removeClass("active");
+        $(this).toggleClass("active");
+        toggleCD(2);
+      })
+
+      $("#CD2").click(function(){
+        $(this).siblings().removeClass("active");
+        $(this).toggleClass("active");
+        toggleCD(1);
+      })
+
+    </script>
+
 </body>
 </html>
