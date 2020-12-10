@@ -1,0 +1,16 @@
+publication = "Hooray2"
+urlPrefix = "https://s3.aws.com/"
+headerImage="/images/Hooray2.jpg"
+
+
+[[cds]]
+    cd = "CD1"
+    [[cds.tracks]]
+        startTrack = 1
+        endTrack = 62
+
+[[cds]]
+    cd = "CD2"
+    [[cds.tracks]]
+        startTrack = 1
+        endTrack = 60

@@ -1,0 +1,16 @@
+publication = "Dino4"
+urlPrefix = "https://s3.aws.com/"
+headerImage="/images/Dino4.jpg"
+
+
+[[cds]]
+    cd = "CD1"
+    [[cds.tracks]]
+        startTrack = 1
+        endTrack = 69
+
+[[cds]]
+    cd = "CD2"
+    [[cds.tracks]]
+        startTrack = 1
+        endTrack = 72
