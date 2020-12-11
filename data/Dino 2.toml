@@ -1,0 +1,574 @@
+Volume = "Dino 2"
+VolumeImage = "https://kiddo-mp3.hle.com.tw/Dino 2.jpg"
+UrlPrefix = "https://kiddo-mp3.hle.com.tw/"
+
+[[Cds]]
+Album = "CD 1"
+
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 01.mp3"
+Duration = "00:21"
+Url = "https://kiddo-mp3.hle.com.tw/cf03f2923d5ddbd207167f4819a17e866379b3d1.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 02.mp3"
+Duration = "02:00"
+Url = "https://kiddo-mp3.hle.com.tw/512429a53401ab7e0fffca8a9adbad40ff221bfe.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 03.mp3"
+Duration = "01:23"
+Url = "https://kiddo-mp3.hle.com.tw/044ca44d63c27384a24c6d1e1a75704003435864.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 04.mp3"
+Duration = "01:27"
+Url = "https://kiddo-mp3.hle.com.tw/ede1611e5b0027fd26616040a96f3e86e79d66b9.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 05.mp3"
+Duration = "01:27"
+Url = "https://kiddo-mp3.hle.com.tw/708ac75211f0984ef7011ce9c49bc9bdbdb49f67.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 06.mp3"
+Duration = "02:33"
+Url = "https://kiddo-mp3.hle.com.tw/57693e6b1fe7db5b2b5526e0d1eaf677501cb854.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 07.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/54a0fbfa7b61cd147ff8533f4b69829215f12c84.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 08.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/88d9a7f82e520318c9ac9cced6f8e1d70ab00f78.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 09.mp3"
+Duration = "01:16"
+Url = "https://kiddo-mp3.hle.com.tw/9123cd58b2c4555dfff0778710f275470bf1d4aa.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 10.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/a844ca7f3e0f3c6ae8dc8d7f315739706e1242f9.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 11.mp3"
+Duration = "00:28"
+Url = "https://kiddo-mp3.hle.com.tw/137ba575049b05f28556462a26724a628337da70.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 12.mp3"
+Duration = "00:28"
+Url = "https://kiddo-mp3.hle.com.tw/fea7500028a586db236f2ce885393eba930100d0.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 13.mp3"
+Duration = "00:51"
+Url = "https://kiddo-mp3.hle.com.tw/03bc9c966049dcf1c823168c884c98ca80a61c3e.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 14.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/e3aceb6c30a0f933e2deb5d0fe1a2c515a24d7c2.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 15.mp3"
+Duration = "00:58"
+Url = "https://kiddo-mp3.hle.com.tw/fbca522493ebd8f641b96aca8a61c442f6b43bba.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 16.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/13ac4b2d3bda1b4c6a8f916e8782a36d0db18211.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 17.mp3"
+Duration = "00:40"
+Url = "https://kiddo-mp3.hle.com.tw/1d974b06adde3ca3fdc1f607dfa8fdc4e6c32f5c.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 18.mp3"
+Duration = "00:50"
+Url = "https://kiddo-mp3.hle.com.tw/4b9dd72b2fd9265aae7da01f0074894f61cbcb14.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 19.mp3"
+Duration = "01:47"
+Url = "https://kiddo-mp3.hle.com.tw/0d9d63efa7afa3eef7e90c931f0e6aef81daa3f6.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 20.mp3"
+Duration = "01:52"
+Url = "https://kiddo-mp3.hle.com.tw/5df69958013a2e5bb751bfb7a59018082c45944b.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 21.mp3"
+Duration = "00:46"
+Url = "https://kiddo-mp3.hle.com.tw/74827dd12beed1b44ef2fe1a3dde4696a70140bf.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 22.mp3"
+Duration = "00:39"
+Url = "https://kiddo-mp3.hle.com.tw/3146d326771449286cb7adfdf50eee549b25595a.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 23.mp3"
+Duration = "00:27"
+Url = "https://kiddo-mp3.hle.com.tw/f74e10f74e200d573f2cdb5aa584eb062656da50.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 24.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/fcfb2bb8a00bb50ebb370eb72a32ea7b363c2069.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 25.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/37f2429b1545817d8f98eea1aefc8bed65e83fee.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 26.mp3"
+Duration = "00:32"
+Url = "https://kiddo-mp3.hle.com.tw/0c53f1e5a40d46e420b7ed0f7608c3650cec6f31.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 27.mp3"
+Duration = "01:26"
+Url = "https://kiddo-mp3.hle.com.tw/4c6d61978826146d634d01e488004c041364b4f4.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 28.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/c18bdcc04968e8d21958eae48485f3b47787b9e4.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 29.mp3"
+Duration = "01:17"
+Url = "https://kiddo-mp3.hle.com.tw/87ac4b0e745aa422751d043dbf8944a50dd0dcd7.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 30.mp3"
+Duration = "01:06"
+Url = "https://kiddo-mp3.hle.com.tw/6401155715340fdd02de27172d18a1cb12cac296.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 31.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/8d868f845b1ebfa0f99a3567afcf1b6270cee9cb.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 32.mp3"
+Duration = "01:15"
+Url = "https://kiddo-mp3.hle.com.tw/5f284af70a898ff5ad88b2f818cec6d4baca1159.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 33.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/1f06285d4c68a53f1eb986182e1395e241a88aa7.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 34.mp3"
+Duration = "00:28"
+Url = "https://kiddo-mp3.hle.com.tw/167babd52707a1c72349bf0641c34197daccef6c.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 35.mp3"
+Duration = "00:31"
+Url = "https://kiddo-mp3.hle.com.tw/ed8b9d8da810985ebea2614dc0846572b16e6ce2.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 36.mp3"
+Duration = "00:49"
+Url = "https://kiddo-mp3.hle.com.tw/f37ddeafbae059f150467ed3a72664d0088672a8.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 37.mp3"
+Duration = "01:09"
+Url = "https://kiddo-mp3.hle.com.tw/176cf5cb8b6bda9298fbce1a298b3333c83ce31e.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 38.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/ae96c94535be95fdce25cef8095cfb4d8543e04f.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 39.mp3"
+Duration = "00:45"
+Url = "https://kiddo-mp3.hle.com.tw/3804b0238e9991acb2d185a6d3498fdce3a758e7.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 40.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/0a66d76b1f525e6bace965129f4a1bad169012be.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 41.mp3"
+Duration = "01:28"
+Url = "https://kiddo-mp3.hle.com.tw/9f9d14787c68b199f1d744b6567befc0cea530db.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 42.mp3"
+Duration = "01:22"
+Url = "https://kiddo-mp3.hle.com.tw/341fc930741c8878a19d80ad716b29e794c212aa.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 43.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/bb1a7c7fe33ffe5bf4a5f41b06cdbbcbfc1d8b72.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 44.mp3"
+Duration = "00:39"
+Url = "https://kiddo-mp3.hle.com.tw/7cb8a55d31a8044b6043482ca837a62a968d2ee0.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 45.mp3"
+Duration = "00:27"
+Url = "https://kiddo-mp3.hle.com.tw/8d3635ed577c00f84bcd08fe8d0fa0b7f0e3607c.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 46.mp3"
+Duration = "00:48"
+Url = "https://kiddo-mp3.hle.com.tw/330bb66fe9d6cae16d2f86334dfd9d38edf9aced.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 47.mp3"
+Duration = "00:41"
+Url = "https://kiddo-mp3.hle.com.tw/e1bdfacf035ae18c4984a36f5360c66e5f17ab21.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 48.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/c3d26de99171b6eb66d03d2c6152c83d233cdce6.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 49.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/3db92fc5ad211a0a7b913c5f29682f1cc3f6dfd7.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 50.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/35af2d04ca6387836deb5dd012df9aec86bc57bf.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 51.mp3"
+Duration = "01:09"
+Url = "https://kiddo-mp3.hle.com.tw/6809691540c14cbd440a2d302a77c44d1a2faa09.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 52.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/6a0f6d4f374d95e9f74d3744d1dfca3d6c60afb1.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 53.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/9e0eb7b2ed67ccec542bb7cf27dab8305f8f6188.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 54.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/3821a57670e411dda3d70a51d9ff48a1a17bcd3a.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 55.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/3af79da890962e8feb8fa3e4e2fefcf3e2b0d04b.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 56.mp3"
+Duration = "00:29"
+Url = "https://kiddo-mp3.hle.com.tw/572b28bb5ce01ba97c06dbed420c66594947381b.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 57.mp3"
+Duration = "00:30"
+Url = "https://kiddo-mp3.hle.com.tw/bb82e98f7c414daf84703ea604b890e638bf77e0.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 58.mp3"
+Duration = "00:49"
+Url = "https://kiddo-mp3.hle.com.tw/1d7bc5bf0587a5d3455cf6da392f9dc62c924e05.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 59.mp3"
+Duration = "01:08"
+Url = "https://kiddo-mp3.hle.com.tw/26d6e65e0bdc9ee35181830b7abc56ddfe50a75b.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 60.mp3"
+Duration = "01:11"
+Url = "https://kiddo-mp3.hle.com.tw/ed088a62fe8c723eb8ad1b7c6ff1668c95dda589.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 61.mp3"
+Duration = "00:48"
+Url = "https://kiddo-mp3.hle.com.tw/b179700401a0500fc66faa0c5c1b7cae0fc456fc.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 62.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/900678630f91b8a1fe2369c34f5d01f29b7194ba.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 63.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/024ba7d0d48714ca47484b28197ba4ce807e9220.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 64.mp3"
+Duration = "00:53"
+Url = "https://kiddo-mp3.hle.com.tw/a0138896995238d2b844fee0c277181feb3dcbd5.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 65.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/5f852c07517e9e2ff667c90165fdbda7d82dd011.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 66.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/c79bedbfa41683995a720bdb778ad55f2204f847.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 67.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/6027f2ea44e4887a616bd101c972f174bf2a698d.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 68.mp3"
+Duration = "01:14"
+Url = "https://kiddo-mp3.hle.com.tw/54768e9757ae811b95735a0b936aa65bb041268d.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 69.mp3"
+Duration = "01:04"
+Url = "https://kiddo-mp3.hle.com.tw/0c5f832ba694d5510b952321385f32663f54c9f2.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 70.mp3"
+Duration = "01:29"
+Url = "https://kiddo-mp3.hle.com.tw/4b5cda567bda5fa7c5e4d9e48452852c5cfa8337.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD1 Track 71.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/81ea72a09c4555f9d33fa23a51c97e6085f809cb.mp3"
+[[Cds]]
+Album = "CD 2"
+
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 01.mp3"
+Duration = "00:20"
+Url = "https://kiddo-mp3.hle.com.tw/cb46c34f05c513f5f55695f696104916b1b212bc.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 02.mp3"
+Duration = "01:15"
+Url = "https://kiddo-mp3.hle.com.tw/c3ab24f90375be14e5dfa8c7713906ba948a63c6.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 03.mp3"
+Duration = "01:23"
+Url = "https://kiddo-mp3.hle.com.tw/3fa6406129d0bb9f07ca45e806d8c2b495f34bf2.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 04.mp3"
+Duration = "00:46"
+Url = "https://kiddo-mp3.hle.com.tw/145e2b96d6fc6ff094045ec0930fec0bc0ae519c.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 05.mp3"
+Duration = "00:38"
+Url = "https://kiddo-mp3.hle.com.tw/0042b862048270134e3d8447f20c4eb276c3e80c.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 06.mp3"
+Duration = "00:34"
+Url = "https://kiddo-mp3.hle.com.tw/b33adae1f332cef17371ae146c06aa0644fc47a4.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 07.mp3"
+Duration = "01:00"
+Url = "https://kiddo-mp3.hle.com.tw/b8d3147de2f1ef8676f720c57467a2ef73c34cf7.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 08.mp3"
+Duration = "00:40"
+Url = "https://kiddo-mp3.hle.com.tw/b32c84553d94f67c9bc3eec7b87b929ae6746c98.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 09.mp3"
+Duration = "00:19"
+Url = "https://kiddo-mp3.hle.com.tw/e7f6536ed2c1dfb187369c26a1ae24ccbbb5d195.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 10.mp3"
+Duration = "01:36"
+Url = "https://kiddo-mp3.hle.com.tw/c3f7ff92502a434b196e979568f0311174ea69cf.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 11.mp3"
+Duration = "01:00"
+Url = "https://kiddo-mp3.hle.com.tw/609ab5d083ce88dfe00a1cd110d255bf9b504aa1.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 12.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/03f658ad8058cb45d6347bc491705ada902b35cf.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 13.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/cde22f2fc5e8b5b636952fc9d4542cc37206fa2f.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 14.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/e3bc7e6dab123377eb1249b8a062c986d6bc1361.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 15.mp3"
+Duration = "01:16"
+Url = "https://kiddo-mp3.hle.com.tw/eb91230948b8bd7dfa92cec599cd952da4db01e0.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 16.mp3"
+Duration = "01:06"
+Url = "https://kiddo-mp3.hle.com.tw/e37141c58c38c09a52ccce372386daa59874d636.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 17.mp3"
+Duration = "00:28"
+Url = "https://kiddo-mp3.hle.com.tw/a1a6feead624917b48c8b2c996e4f247a54ff1d8.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 18.mp3"
+Duration = "00:29"
+Url = "https://kiddo-mp3.hle.com.tw/ec9fd4c3f3f9a7daad8be59bfaf3dfe3de6e5a65.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 19.mp3"
+Duration = "00:50"
+Url = "https://kiddo-mp3.hle.com.tw/66fb42bf783d669a6148dbafd51edbd857aee533.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 20.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/0203543fc77c931d7efa537d4e5fe1a96532193e.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 21.mp3"
+Duration = "00:58"
+Url = "https://kiddo-mp3.hle.com.tw/a0334af8f59879bfa7b6f7ff7e9870c8212ec151.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 22.mp3"
+Duration = "00:46"
+Url = "https://kiddo-mp3.hle.com.tw/0487b74f70cc1a1bf4e17299cff7d0418b71579d.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 23.mp3"
+Duration = "00:34"
+Url = "https://kiddo-mp3.hle.com.tw/891ad6287a171fd9313dda7760be2c23b7ab3c37.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 24.mp3"
+Duration = "01:22"
+Url = "https://kiddo-mp3.hle.com.tw/5a63ef656ed3bf2000e8cd98d3a4a58eb3dc128e.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 25.mp3"
+Duration = "01:44"
+Url = "https://kiddo-mp3.hle.com.tw/e80393d9ce2d5e031774bbee82ad24ff68c2f3d6.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 26.mp3"
+Duration = "00:43"
+Url = "https://kiddo-mp3.hle.com.tw/a056a9943ca161a5ca51b710bf7aceb12263e2c0.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 27.mp3"
+Duration = "00:34"
+Url = "https://kiddo-mp3.hle.com.tw/0d57c96cb3c333405a429a36530dd9058d78fdb1.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 28.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/c7723d3a9db616e5cac35c5eac0c177b41cd2f59.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 29.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/e5b85c74cc6b9a13a9471e9584e615010cb4ff74.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 30.mp3"
+Duration = "01:02"
+Url = "https://kiddo-mp3.hle.com.tw/5e168ed9328403f37bdfa3ffbbf857618e84b03d.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 31.mp3"
+Duration = "00:21"
+Url = "https://kiddo-mp3.hle.com.tw/c0446d1ddc59de21fcec49de802d6691fcbe2090.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 32.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/b43341ad2f7dceeeff55ce3a6ab3b12bb8effc8e.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 33.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/2dc970932124ab390ab150a8213ea43de03d38a1.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 34.mp3"
+Duration = "01:22"
+Url = "https://kiddo-mp3.hle.com.tw/e54ede3b782b43c35a72ce370f2fb2355a29cca6.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 35.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/56f975bff068a4ddd434b6513bd3f74c93ccb9dc.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 36.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/14d676cecc2cb2fc5e2a08352e33af2d64d92114.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 37.mp3"
+Duration = "01:16"
+Url = "https://kiddo-mp3.hle.com.tw/06df8f8d1b170d5b96441d2cfcb6fe4f2409cac6.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 38.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/ad64440ea9930d2f17edaa2b4ee1597b6d80846e.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 39.mp3"
+Duration = "00:27"
+Url = "https://kiddo-mp3.hle.com.tw/f5a5c4e3adfaf27b360fb6b1adf86b04b2e97971.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 40.mp3"
+Duration = "00:31"
+Url = "https://kiddo-mp3.hle.com.tw/0b658d3cb485a393a76801451b3accb8ee591255.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 41.mp3"
+Duration = "00:52"
+Url = "https://kiddo-mp3.hle.com.tw/c71a59abf5487a14f345837e38230c5c6d395ff1.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 42.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/44fe764f047714ddf5ac2f92dfb7dcbe4a2ff1a7.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 43.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/e29e86a9025186781613ef137e5226387d27b557.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 44.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/99724b347ee35ecee9b3a8df69821ed9b7d6aecd.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 45.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/0a2e1640edb82a4a217ce1c514553c54fe286901.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 46.mp3"
+Duration = "01:27"
+Url = "https://kiddo-mp3.hle.com.tw/d29cc71c6983e5be15f554ae58607f74aefccc8f.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 47.mp3"
+Duration = "01:02"
+Url = "https://kiddo-mp3.hle.com.tw/dafa3db2e2503450140c5edec5d0bc26e3b74294.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 48.mp3"
+Duration = "01:21"
+Url = "https://kiddo-mp3.hle.com.tw/faad6d248df7543ca266ee363969a923cde87fad.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 49.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/3fc7aedbdcdb822d785481e9327064372ea6cccd.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 50.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/1af83416ff5adfdaae7635c5eeb5f84e8c650195.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 51.mp3"
+Duration = "01:00"
+Url = "https://kiddo-mp3.hle.com.tw/c0f6682d6a838d962c99c429169de6bb92975070.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 52.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/45890da0ce73b2eee83c9b105d6d77a0fc05c570.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 53.mp3"
+Duration = "01:54"
+Url = "https://kiddo-mp3.hle.com.tw/3f026e4a1e857b82eae84396417afc4ecc55871c.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 54.mp3"
+Duration = "01:42"
+Url = "https://kiddo-mp3.hle.com.tw/09663d2362855d18416a9bdd6c67436d8d35864c.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 55.mp3"
+Duration = "01:42"
+Url = "https://kiddo-mp3.hle.com.tw/0519f20392d5d0c740a1d1e890a8658993a76c55.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 56.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/f891adbeb62211b1f9694a9e08b56c8712c351a6.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 57.mp3"
+Duration = "01:21"
+Url = "https://kiddo-mp3.hle.com.tw/01c7cd71c7d24d7bf262edf2cf5d42dfd712a04f.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 58.mp3"
+Duration = "01:09"
+Url = "https://kiddo-mp3.hle.com.tw/7bfd3f6a31dfc13ec0c49f0cc2d7db6e33e1fcfa.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 59.mp3"
+Duration = "01:09"
+Url = "https://kiddo-mp3.hle.com.tw/d7e3e443eed74f3479e6e97664a575064d42485e.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 60.mp3"
+Duration = "01:26"
+Url = "https://kiddo-mp3.hle.com.tw/fa6ded4ddf648fe1334ddb44573800739e469ce7.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 61.mp3"
+Duration = "01:06"
+Url = "https://kiddo-mp3.hle.com.tw/7c6531ad56ebd785a85cb08cc9cc1d862963503b.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 62.mp3"
+Duration = "00:41"
+Url = "https://kiddo-mp3.hle.com.tw/b06ccaf9e07922e57c09b547cab1060955e612b6.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 63.mp3"
+Duration = "01:00"
+Url = "https://kiddo-mp3.hle.com.tw/5430119fd49adaac1cc5887f0f52e961d4b8b86e.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 64.mp3"
+Duration = "01:32"
+Url = "https://kiddo-mp3.hle.com.tw/9bc4b29d3101c8a6ed599de2d6dc9eda4bb03d29.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 65.mp3"
+Duration = "01:23"
+Url = "https://kiddo-mp3.hle.com.tw/2d16ba1eda739fada58e38dc80978779f55defb3.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 66.mp3"
+Duration = "01:01"
+Url = "https://kiddo-mp3.hle.com.tw/4123305d3b856ca844ad54be364e9f673098fab7.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 67.mp3"
+Duration = "01:15"
+Url = "https://kiddo-mp3.hle.com.tw/3ee11520576fc38bcf3d19c59db59745877bff1c.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 68.mp3"
+Duration = "01:08"
+Url = "https://kiddo-mp3.hle.com.tw/542bdaa33a336793647c5060a45def843370a244.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 69.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/3a7b86a5fe6d5f1f746137cd873105da3659598b.mp3"
+[[Cds.Tracks]]
+Title = "Dino 2 CD2 Track 70.mp3"
+Duration = "01:09"
+Url = "https://kiddo-mp3.hle.com.tw/4a838d6339ca05dacd6b297b2b6e653c2ddc19dc.mp3"

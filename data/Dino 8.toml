@@ -1,0 +1,550 @@
+Volume = "Dino 8"
+VolumeImage = "https://kiddo-mp3.hle.com.tw/Dino 8.jpg"
+UrlPrefix = "https://kiddo-mp3.hle.com.tw/"
+
+[[Cds]]
+Album = "CD 1"
+
+[[Cds.Tracks]]
+Title = "Track 01.mp3"
+Duration = "00:27"
+Url = "https://kiddo-mp3.hle.com.tw/51bb06eec110547064347c7b1990c68f59c06d81.mp3"
+[[Cds.Tracks]]
+Title = "Track 02.mp3"
+Duration = "02:10"
+Url = "https://kiddo-mp3.hle.com.tw/d30f0ea01c6055820c36d4b9e9b45cf22500d94d.mp3"
+[[Cds.Tracks]]
+Title = "Track 03.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/ed3edc910c5b49440b741abdc8480cd63e9a4b22.mp3"
+[[Cds.Tracks]]
+Title = "Track 04.mp3"
+Duration = "01:09"
+Url = "https://kiddo-mp3.hle.com.tw/5d938db3c96b28d98575ae7b57965a282b3805c5.mp3"
+[[Cds.Tracks]]
+Title = "Track 05.mp3"
+Duration = "01:06"
+Url = "https://kiddo-mp3.hle.com.tw/b74d31ee3d8aa50b25d68cf0f737e39851bab1fa.mp3"
+[[Cds.Tracks]]
+Title = "Track 06.mp3"
+Duration = "00:49"
+Url = "https://kiddo-mp3.hle.com.tw/dc76d8c0707de2840eb3de3bd89cb0a4320dbe8c.mp3"
+[[Cds.Tracks]]
+Title = "Track 07.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/82c548f22b7ca39bc90b46423e06fb2d9535741f.mp3"
+[[Cds.Tracks]]
+Title = "Track 08.mp3"
+Duration = "00:54"
+Url = "https://kiddo-mp3.hle.com.tw/f95fd84d32988d6fd9e5809937201fdb1a18139e.mp3"
+[[Cds.Tracks]]
+Title = "Track 09.mp3"
+Duration = "00:53"
+Url = "https://kiddo-mp3.hle.com.tw/c1007089f3a993eca75e9fe05e87f600ba33e957.mp3"
+[[Cds.Tracks]]
+Title = "Track 10.mp3"
+Duration = "01:40"
+Url = "https://kiddo-mp3.hle.com.tw/71190f84ce416aaaf65ffdd8da7895d5f9a06448.mp3"
+[[Cds.Tracks]]
+Title = "Track 11.mp3"
+Duration = "01:24"
+Url = "https://kiddo-mp3.hle.com.tw/a75f17245f5bcbb8db32959c5e4750e163b9908c.mp3"
+[[Cds.Tracks]]
+Title = "Track 12.mp3"
+Duration = "01:17"
+Url = "https://kiddo-mp3.hle.com.tw/3b03f84497c23938af0f48d57b75962a074f7804.mp3"
+[[Cds.Tracks]]
+Title = "Track 13.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/30ef5ffae9858541c96605838caa03faa0c67d88.mp3"
+[[Cds.Tracks]]
+Title = "Track 14.mp3"
+Duration = "00:58"
+Url = "https://kiddo-mp3.hle.com.tw/da07e4bde90892a436dd272611385bcbd5122f9a.mp3"
+[[Cds.Tracks]]
+Title = "Track 15.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/fdec35bff07b03e6dbd046369c7d0bb9f6784cf8.mp3"
+[[Cds.Tracks]]
+Title = "Track 16.mp3"
+Duration = "02:56"
+Url = "https://kiddo-mp3.hle.com.tw/ba47c2e2b2521a0d123db4714899f93fcdd038aa.mp3"
+[[Cds.Tracks]]
+Title = "Track 17.mp3"
+Duration = "03:07"
+Url = "https://kiddo-mp3.hle.com.tw/69851b9bc860d4ba617822aee59030d2b148e560.mp3"
+[[Cds.Tracks]]
+Title = "Track 18.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/71f76499fb437ee7f109698e4a5b3c3258a98aed.mp3"
+[[Cds.Tracks]]
+Title = "Track 19.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/1cc45e958e0ba85d8b9e5ac299c56251e2c5b39b.mp3"
+[[Cds.Tracks]]
+Title = "Track 20.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/df188665940c381e63ab65d345e1ef41548c70bd.mp3"
+[[Cds.Tracks]]
+Title = "Track 21.mp3"
+Duration = "00:21"
+Url = "https://kiddo-mp3.hle.com.tw/fdb2bbe6dc44d84c07640d44dbc630525a8ba8c5.mp3"
+[[Cds.Tracks]]
+Title = "Track 22.mp3"
+Duration = "00:20"
+Url = "https://kiddo-mp3.hle.com.tw/0afddf33407de531e13754ffc71c89598e4cd2ba.mp3"
+[[Cds.Tracks]]
+Title = "Track 23.mp3"
+Duration = "01:41"
+Url = "https://kiddo-mp3.hle.com.tw/c30946e63762c474d0a4d5b7226834935e0f11ba.mp3"
+[[Cds.Tracks]]
+Title = "Track 24.mp3"
+Duration = "00:29"
+Url = "https://kiddo-mp3.hle.com.tw/9697077880e62d240b47dc5b212f072305964efb.mp3"
+[[Cds.Tracks]]
+Title = "Track 25.mp3"
+Duration = "00:32"
+Url = "https://kiddo-mp3.hle.com.tw/e10e2aa4a1d078b8f188d9b30a1b8c0c9065ffff.mp3"
+[[Cds.Tracks]]
+Title = "Track 26.mp3"
+Duration = "00:43"
+Url = "https://kiddo-mp3.hle.com.tw/b14dafa8af35c5c9fdcbc1285a2dea2d84d4bb2a.mp3"
+[[Cds.Tracks]]
+Title = "Track 27.mp3"
+Duration = "00:30"
+Url = "https://kiddo-mp3.hle.com.tw/cdc54a26173b7a4dcde2a956778b69469cabe22e.mp3"
+[[Cds.Tracks]]
+Title = "Track 28.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/877a4972bef36300462bd662b4828f5cf35b5f23.mp3"
+[[Cds.Tracks]]
+Title = "Track 29.mp3"
+Duration = "00:49"
+Url = "https://kiddo-mp3.hle.com.tw/a94e15e954c9afd470c165937371062583087558.mp3"
+[[Cds.Tracks]]
+Title = "Track 30.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/a599ebcad9354c382bb4836a15b8869ce72a0b8a.mp3"
+[[Cds.Tracks]]
+Title = "Track 31.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/6f287c54abb83f3c5060ab54ed2b26eb76cd71d0.mp3"
+[[Cds.Tracks]]
+Title = "Track 32.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/f93950ca9ef84e99ff818656493224bb3054ac9f.mp3"
+[[Cds.Tracks]]
+Title = "Track 33.mp3"
+Duration = "01:01"
+Url = "https://kiddo-mp3.hle.com.tw/4d91b85ad486d4458ef04603ed7ef5c7609fbf97.mp3"
+[[Cds.Tracks]]
+Title = "Track 34.mp3"
+Duration = "01:21"
+Url = "https://kiddo-mp3.hle.com.tw/7ec8efae2ec86015614dc3f7a1653193b7d9ea59.mp3"
+[[Cds.Tracks]]
+Title = "Track 35.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/a01cc5cdc03133f98032062940d9f8ffcdbec509.mp3"
+[[Cds.Tracks]]
+Title = "Track 36.mp3"
+Duration = "02:25"
+Url = "https://kiddo-mp3.hle.com.tw/4205d900952d2804e51d9fff5f6249c172eb55f8.mp3"
+[[Cds.Tracks]]
+Title = "Track 37.mp3"
+Duration = "02:56"
+Url = "https://kiddo-mp3.hle.com.tw/88e43ba5f32be180a4c3a4ebcba35f02a8b3d7d6.mp3"
+[[Cds.Tracks]]
+Title = "Track 38.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/d3dcc604adf837828dc5b2253b14a809ba10b307.mp3"
+[[Cds.Tracks]]
+Title = "Track 39.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/fe977f561d751b3cdf7e4c2ce7dc8d4586764697.mp3"
+[[Cds.Tracks]]
+Title = "Track 40.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/67e6f3a249ed1fa27ada4b65dd652ea246b329c6.mp3"
+[[Cds.Tracks]]
+Title = "Track 41.mp3"
+Duration = "00:21"
+Url = "https://kiddo-mp3.hle.com.tw/6a350eb4931472b7356faf1be68f8c2fa06067da.mp3"
+[[Cds.Tracks]]
+Title = "Track 42.mp3"
+Duration = "00:19"
+Url = "https://kiddo-mp3.hle.com.tw/02fa2860db4f9dc814d6f7fd325505e6384ef62c.mp3"
+[[Cds.Tracks]]
+Title = "Track 43.mp3"
+Duration = "01:35"
+Url = "https://kiddo-mp3.hle.com.tw/c0bd64e65c20f127f3d0724ebaa5d6a592c02bbb.mp3"
+[[Cds.Tracks]]
+Title = "Track 44.mp3"
+Duration = "00:29"
+Url = "https://kiddo-mp3.hle.com.tw/08c988da17cccd6fbd8c83db2de09d31184ba8aa.mp3"
+[[Cds.Tracks]]
+Title = "Track 45.mp3"
+Duration = "00:33"
+Url = "https://kiddo-mp3.hle.com.tw/1989940dd9046babdd8f602222df7887383600ec.mp3"
+[[Cds.Tracks]]
+Title = "Track 46.mp3"
+Duration = "00:41"
+Url = "https://kiddo-mp3.hle.com.tw/f817d56490f68faa2fb817224cb3a2770e79a7f2.mp3"
+[[Cds.Tracks]]
+Title = "Track 47.mp3"
+Duration = "00:32"
+Url = "https://kiddo-mp3.hle.com.tw/f3201f582b538a6593f7f103367c6c99a488d149.mp3"
+[[Cds.Tracks]]
+Title = "Track 48.mp3"
+Duration = "01:06"
+Url = "https://kiddo-mp3.hle.com.tw/b0ab5e1e10e08cd19f4ec6d9a4cf4fa18e3f1936.mp3"
+[[Cds.Tracks]]
+Title = "Track 49.mp3"
+Duration = "00:52"
+Url = "https://kiddo-mp3.hle.com.tw/f6c826f639b8361f130fb33b6230b43e6eb1d5d3.mp3"
+[[Cds.Tracks]]
+Title = "Track 50.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/53076340e3d733c470de3cd6c61e9f52ab160aac.mp3"
+[[Cds.Tracks]]
+Title = "Track 51.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/150d8e51c0966ae6149cb691ab49795aa9c332c2.mp3"
+[[Cds.Tracks]]
+Title = "Track 52.mp3"
+Duration = "00:50"
+Url = "https://kiddo-mp3.hle.com.tw/8ce0b0b1916e78b1b65200323d0222082de9e9a2.mp3"
+[[Cds.Tracks]]
+Title = "Track 53.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/8bcddf449bc914cc801a5a083d595d2afb62de51.mp3"
+[[Cds.Tracks]]
+Title = "Track 54.mp3"
+Duration = "01:45"
+Url = "https://kiddo-mp3.hle.com.tw/79e35b2ac1c11f9496b2113bbd3efeb7408425f9.mp3"
+[[Cds.Tracks]]
+Title = "Track 55.mp3"
+Duration = "01:15"
+Url = "https://kiddo-mp3.hle.com.tw/4869afb1d72fdff9867caaffa06d388af8267ddd.mp3"
+[[Cds.Tracks]]
+Title = "Track 56.mp3"
+Duration = "01:17"
+Url = "https://kiddo-mp3.hle.com.tw/af95a89c60c1dfc5e57713566cb7ebe56d13c161.mp3"
+[[Cds.Tracks]]
+Title = "Track 57.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/6e0e7784000dc7366241af82e2e2d92089a57fdd.mp3"
+[[Cds.Tracks]]
+Title = "Track 58.mp3"
+Duration = "01:18"
+Url = "https://kiddo-mp3.hle.com.tw/970bdc690f5683c9a0e86629434f1dcdf1022ede.mp3"
+[[Cds.Tracks]]
+Title = "Track 59.mp3"
+Duration = "00:39"
+Url = "https://kiddo-mp3.hle.com.tw/a27bf19e0c60dae45863110ec9cc53bc4f65e274.mp3"
+[[Cds.Tracks]]
+Title = "Track 60.mp3"
+Duration = "01:28"
+Url = "https://kiddo-mp3.hle.com.tw/155ca05a945899789f45921fd193c85600e2a307.mp3"
+[[Cds.Tracks]]
+Title = "Track 61.mp3"
+Duration = "01:25"
+Url = "https://kiddo-mp3.hle.com.tw/90c0717b8a5c46bb1c02f1ccd15ca04ef96125a8.mp3"
+[[Cds.Tracks]]
+Title = "Track 62.mp3"
+Duration = "00:39"
+Url = "https://kiddo-mp3.hle.com.tw/76fbf87c1d261bc8a8fb705a984003a3cb77babb.mp3"
+[[Cds.Tracks]]
+Title = "Track 63.mp3"
+Duration = "01:50"
+Url = "https://kiddo-mp3.hle.com.tw/b569f8bef1bf52021e9494ff6bfe5e97456f3bac.mp3"
+[[Cds.Tracks]]
+Title = "Track 64.mp3"
+Duration = "01:47"
+Url = "https://kiddo-mp3.hle.com.tw/e0fe25e6a8dd6a0f6852f953ed0054313d923602.mp3"
+[[Cds.Tracks]]
+Title = "Track 65.mp3"
+Duration = "01:11"
+Url = "https://kiddo-mp3.hle.com.tw/e3a6e09303d626c30e09019c8086253783796588.mp3"
+[[Cds.Tracks]]
+Title = "Track 66.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/efb4c72edb81235049925dd729a12ec55e931e01.mp3"
+[[Cds.Tracks]]
+Title = "Track 67.mp3"
+Duration = "00:46"
+Url = "https://kiddo-mp3.hle.com.tw/cecbc8639e98889000de0fe1bebb7e44667c55a2.mp3"
+[[Cds.Tracks]]
+Title = "Track 68.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/7ec00dd8bb76ab885926a43de7da1aed60cfcd5b.mp3"
+[[Cds.Tracks]]
+Title = "Track 69.mp3"
+Duration = "00:26"
+Url = "https://kiddo-mp3.hle.com.tw/b3ad9ddd8464f84fff423561b04b2329c17f884d.mp3"
+[[Cds.Tracks]]
+Title = "Track 70.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/76dbd5a00332702bc2f95ef2cd8ab486e0e6d724.mp3"
+[[Cds.Tracks]]
+Title = "Track 71.mp3"
+Duration = "01:08"
+Url = "https://kiddo-mp3.hle.com.tw/74084babfb47e8e8e149a689a52cd9455e5d03b1.mp3"
+[[Cds]]
+Album = "CD 2"
+
+[[Cds.Tracks]]
+Title = "Track 01.mp3"
+Duration = "00:27"
+Url = "https://kiddo-mp3.hle.com.tw/552587805eae18dc7a9937d68618a9441718679e.mp3"
+[[Cds.Tracks]]
+Title = "Track 02.mp3"
+Duration = "03:03"
+Url = "https://kiddo-mp3.hle.com.tw/c7a70737b3b476f64b0f31696c410b197601b03a.mp3"
+[[Cds.Tracks]]
+Title = "Track 03.mp3"
+Duration = "02:48"
+Url = "https://kiddo-mp3.hle.com.tw/905fa588a41129ee1845074e759b015a66f67351.mp3"
+[[Cds.Tracks]]
+Title = "Track 04.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/408879003730fd1f3d8468df4f35bbf100fcf0d0.mp3"
+[[Cds.Tracks]]
+Title = "Track 05.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/78a9cdf686e534b43bc96453d7dffc693e2f6c14.mp3"
+[[Cds.Tracks]]
+Title = "Track 06.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/e209a5dda9d2f68097205e7d77310a08ec270e13.mp3"
+[[Cds.Tracks]]
+Title = "Track 07.mp3"
+Duration = "00:19"
+Url = "https://kiddo-mp3.hle.com.tw/37e5b65028d05787c453c68b3ba6dded72cb2044.mp3"
+[[Cds.Tracks]]
+Title = "Track 08.mp3"
+Duration = "00:17"
+Url = "https://kiddo-mp3.hle.com.tw/907e3ea336bf26188696569803daa33ad7af4dec.mp3"
+[[Cds.Tracks]]
+Title = "Track 09.mp3"
+Duration = "01:21"
+Url = "https://kiddo-mp3.hle.com.tw/1fd9ddae32de6e93a3d4eeddc535a5a057c11cf1.mp3"
+[[Cds.Tracks]]
+Title = "Track 10.mp3"
+Duration = "00:17"
+Url = "https://kiddo-mp3.hle.com.tw/c65d90a79540044e58046b28c7574160bae03544.mp3"
+[[Cds.Tracks]]
+Title = "Track 11.mp3"
+Duration = "00:12"
+Url = "https://kiddo-mp3.hle.com.tw/76da7b54ef5e4dad98bf78a4f8f2955166acba3d.mp3"
+[[Cds.Tracks]]
+Title = "Track 12.mp3"
+Duration = "00:41"
+Url = "https://kiddo-mp3.hle.com.tw/750349745ae79c67b8308f70e415cd2cc7acfd90.mp3"
+[[Cds.Tracks]]
+Title = "Track 13.mp3"
+Duration = "00:32"
+Url = "https://kiddo-mp3.hle.com.tw/3fc108e7ae4285c620b887d29b77d25f869c1ff7.mp3"
+[[Cds.Tracks]]
+Title = "Track 14.mp3"
+Duration = "02:06"
+Url = "https://kiddo-mp3.hle.com.tw/e2151a5c4b7f9e586fea6d968142b4c9e3f59628.mp3"
+[[Cds.Tracks]]
+Title = "Track 15.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/33546beebfcfe0dc0ceb492a8dfb15d7aa557cc7.mp3"
+[[Cds.Tracks]]
+Title = "Track 16.mp3"
+Duration = "01:56"
+Url = "https://kiddo-mp3.hle.com.tw/1961a9c1afabe915595abc1e3462356c8ac9ee3b.mp3"
+[[Cds.Tracks]]
+Title = "Track 17.mp3"
+Duration = "02:11"
+Url = "https://kiddo-mp3.hle.com.tw/ba7a389d2189dc8b8a4ca4f6788a1a50f3f8de57.mp3"
+[[Cds.Tracks]]
+Title = "Track 18.mp3"
+Duration = "01:21"
+Url = "https://kiddo-mp3.hle.com.tw/0146d334a390e3ab095fbafb102ed8d08520f6c5.mp3"
+[[Cds.Tracks]]
+Title = "Track 19.mp3"
+Duration = "01:53"
+Url = "https://kiddo-mp3.hle.com.tw/539fc523447b26339dfb4e0cc825db1bb7198324.mp3"
+[[Cds.Tracks]]
+Title = "Track 20.mp3"
+Duration = "01:02"
+Url = "https://kiddo-mp3.hle.com.tw/6e7a2a829e21ef964cdd0d1bd5b7d613bfff4de8.mp3"
+[[Cds.Tracks]]
+Title = "Track 21.mp3"
+Duration = "02:02"
+Url = "https://kiddo-mp3.hle.com.tw/ad525cb3ff3640eb85afe553ebd8c0e713623426.mp3"
+[[Cds.Tracks]]
+Title = "Track 22.mp3"
+Duration = "02:26"
+Url = "https://kiddo-mp3.hle.com.tw/496c980301fdf7636256f731bf6a6f710c1b0358.mp3"
+[[Cds.Tracks]]
+Title = "Track 23.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/2920ca83bcd190ad50ca5525aa261017f1e86171.mp3"
+[[Cds.Tracks]]
+Title = "Track 24.mp3"
+Duration = "00:49"
+Url = "https://kiddo-mp3.hle.com.tw/68a5671a9fc14fa2aa5b4275f42f67d09765054e.mp3"
+[[Cds.Tracks]]
+Title = "Track 25.mp3"
+Duration = "01:27"
+Url = "https://kiddo-mp3.hle.com.tw/66958a1cfe84cfbc8b8eb8a20af2573d5cb59371.mp3"
+[[Cds.Tracks]]
+Title = "Track 26.mp3"
+Duration = "00:18"
+Url = "https://kiddo-mp3.hle.com.tw/6e6bf2ecd9f13aded974a902490405750649dfb4.mp3"
+[[Cds.Tracks]]
+Title = "Track 27.mp3"
+Duration = "00:16"
+Url = "https://kiddo-mp3.hle.com.tw/72480105075361e56b62a86c47e7c7f37db3182f.mp3"
+[[Cds.Tracks]]
+Title = "Track 28.mp3"
+Duration = "01:32"
+Url = "https://kiddo-mp3.hle.com.tw/58a6123833a880461208e1213c7a49a0b8bfaa79.mp3"
+[[Cds.Tracks]]
+Title = "Track 29.mp3"
+Duration = "00:20"
+Url = "https://kiddo-mp3.hle.com.tw/f828b6e9add4d7837a30712bcc03fce1830ec3c1.mp3"
+[[Cds.Tracks]]
+Title = "Track 30.mp3"
+Duration = "00:18"
+Url = "https://kiddo-mp3.hle.com.tw/23ebd92e13285fc0d7d69c557373f25b71b22970.mp3"
+[[Cds.Tracks]]
+Title = "Track 31.mp3"
+Duration = "00:40"
+Url = "https://kiddo-mp3.hle.com.tw/56d0cc450226eece1a1c46969d8937f5f7d116b8.mp3"
+[[Cds.Tracks]]
+Title = "Track 32.mp3"
+Duration = "00:27"
+Url = "https://kiddo-mp3.hle.com.tw/8bc232642f41be76338b50017f7620af10387799.mp3"
+[[Cds.Tracks]]
+Title = "Track 33.mp3"
+Duration = "02:06"
+Url = "https://kiddo-mp3.hle.com.tw/40a8ccdb207dc947b215429f6e5e69c478eb137d.mp3"
+[[Cds.Tracks]]
+Title = "Track 34.mp3"
+Duration = "01:15"
+Url = "https://kiddo-mp3.hle.com.tw/03529eb25bb74e6fb36c11fcda6d8268b3057b17.mp3"
+[[Cds.Tracks]]
+Title = "Track 35.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/d4238740a9748dde3d50c73a2edb9ff0c43b0775.mp3"
+[[Cds.Tracks]]
+Title = "Track 36.mp3"
+Duration = "01:37"
+Url = "https://kiddo-mp3.hle.com.tw/33e00b65bdc8d18298602a17b3f4386085cbe0f4.mp3"
+[[Cds.Tracks]]
+Title = "Track 37.mp3"
+Duration = "01:24"
+Url = "https://kiddo-mp3.hle.com.tw/79611e4252eda1575e8a993ab5be450284d98192.mp3"
+[[Cds.Tracks]]
+Title = "Track 38.mp3"
+Duration = "01:48"
+Url = "https://kiddo-mp3.hle.com.tw/18009bd3a1ed2a95d12883482e9ce44d89d1bfc6.mp3"
+[[Cds.Tracks]]
+Title = "Track 39.mp3"
+Duration = "01:09"
+Url = "https://kiddo-mp3.hle.com.tw/978e789bfa29f16bd11f2f0c21001ba4136f2ee7.mp3"
+[[Cds.Tracks]]
+Title = "Track 40.mp3"
+Duration = "00:54"
+Url = "https://kiddo-mp3.hle.com.tw/fdc3d8a77ce75152920bc8d94b6109f9fe0f89fe.mp3"
+[[Cds.Tracks]]
+Title = "Track 41.mp3"
+Duration = "01:04"
+Url = "https://kiddo-mp3.hle.com.tw/834cfb17868a95cb7ad2dc495a77d4920ca1bece.mp3"
+[[Cds.Tracks]]
+Title = "Track 42.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/346248c083b6fb15968f4b96ed32c50c4513455d.mp3"
+[[Cds.Tracks]]
+Title = "Track 43.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/51982108b9b10db282240b14f87a2fe93fd86472.mp3"
+[[Cds.Tracks]]
+Title = "Track 44.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/cd498cf8f3f17297395cee6e94989fdcf011efba.mp3"
+[[Cds.Tracks]]
+Title = "Track 45.mp3"
+Duration = "00:33"
+Url = "https://kiddo-mp3.hle.com.tw/2cccf385af440358903d762a868e435160b7cac8.mp3"
+[[Cds.Tracks]]
+Title = "Track 46.mp3"
+Duration = "00:33"
+Url = "https://kiddo-mp3.hle.com.tw/b70dda2e53944732bf697569a890a017c22c72df.mp3"
+[[Cds.Tracks]]
+Title = "Track 47.mp3"
+Duration = "00:29"
+Url = "https://kiddo-mp3.hle.com.tw/dc90b45c41466d6f33d7f8e4e666942d16569e81.mp3"
+[[Cds.Tracks]]
+Title = "Track 48.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/380fe87aa46267045fcaa88a0a5e83bac56237ff.mp3"
+[[Cds.Tracks]]
+Title = "Track 49.mp3"
+Duration = "02:00"
+Url = "https://kiddo-mp3.hle.com.tw/ce010f377d20445f4cf5e2d7e541d9fcc7e990a6.mp3"
+[[Cds.Tracks]]
+Title = "Track 50.mp3"
+Duration = "01:55"
+Url = "https://kiddo-mp3.hle.com.tw/7cb4a239c175906187ce3cd5135246d0b09f0b5f.mp3"
+[[Cds.Tracks]]
+Title = "Track 51.mp3"
+Duration = "00:40"
+Url = "https://kiddo-mp3.hle.com.tw/e697bdd341cb2f271ef2d2888e5ab580ab5f4e77.mp3"
+[[Cds.Tracks]]
+Title = "Track 52.mp3"
+Duration = "01:40"
+Url = "https://kiddo-mp3.hle.com.tw/e019c1ed67d3bcae7cd7eb66f9fc978477b87a1b.mp3"
+[[Cds.Tracks]]
+Title = "Track 53.mp3"
+Duration = "01:38"
+Url = "https://kiddo-mp3.hle.com.tw/6b14d060b6f93df8a0fed71612e57127b9cfe41e.mp3"
+[[Cds.Tracks]]
+Title = "Track 54.mp3"
+Duration = "01:08"
+Url = "https://kiddo-mp3.hle.com.tw/97f491dd0b9a47e0259c3f8a1b63932139e432bf.mp3"
+[[Cds.Tracks]]
+Title = "Track 55.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/471197ac4018f930141e7c2f06761fe27e306730.mp3"
+[[Cds.Tracks]]
+Title = "Track 56.mp3"
+Duration = "01:16"
+Url = "https://kiddo-mp3.hle.com.tw/e6e67a26f506dd7ecf704c92f80d43419d1e4939.mp3"
+[[Cds.Tracks]]
+Title = "Track 57.mp3"
+Duration = "01:33"
+Url = "https://kiddo-mp3.hle.com.tw/8480e4e1a9f9f5efa2d77c5a917787185338d6fe.mp3"
+[[Cds.Tracks]]
+Title = "Track 58.mp3"
+Duration = "01:22"
+Url = "https://kiddo-mp3.hle.com.tw/c69476ed382e1d119a7cff19fa2bfb0a4574fee4.mp3"
+[[Cds.Tracks]]
+Title = "Track 59.mp3"
+Duration = "01:26"
+Url = "https://kiddo-mp3.hle.com.tw/dbc3aa82c3c9a2d6f022bb78e6bcb1456a87e67c.mp3"
+[[Cds.Tracks]]
+Title = "Track 60.mp3"
+Duration = "00:49"
+Url = "https://kiddo-mp3.hle.com.tw/e1982668a36c7aadd3cd354c73795f91c5028375.mp3"
+[[Cds.Tracks]]
+Title = "Track 61.mp3"
+Duration = "00:51"
+Url = "https://kiddo-mp3.hle.com.tw/4c5cba9cdc4a7077e1bbf43cf0278ee29b493b34.mp3"
+[[Cds.Tracks]]
+Title = "Track 62.mp3"
+Duration = "01:18"
+Url = "https://kiddo-mp3.hle.com.tw/cecd736551a89d56d3106a7519eebfdd84a1ec33.mp3"
+[[Cds.Tracks]]
+Title = "Track 63.mp3"
+Duration = "01:17"
+Url = "https://kiddo-mp3.hle.com.tw/f160db7f36f7c42b27083cad099d4412d3000db4.mp3"
+[[Cds.Tracks]]
+Title = "Track 64.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/5030e4730512d52a4ba229033c74cba47133e316.mp3"

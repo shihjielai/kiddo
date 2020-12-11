@@ -1,0 +1,454 @@
+Volume = "ReadyGo 2"
+VolumeImage = "https://kiddo-mp3.hle.com.tw/ReadyGo 2.jpg"
+UrlPrefix = "https://kiddo-mp3.hle.com.tw/"
+
+[[Cds]]
+Album = "CD 1"
+
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 01.mp3"
+Duration = "00:25"
+Url = "https://kiddo-mp3.hle.com.tw/ea9e18cb0bead23be026dbadf2e1f832977f73c9.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 02.mp3"
+Duration = "01:54"
+Url = "https://kiddo-mp3.hle.com.tw/b4d8cd4ca2b37d70d719381d950fdfbb7517e75b.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 03.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/6535cdcf8823cb4285a06efca6911ca341173486.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 04.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/43b7d1b9eaab216dbf1868db5cf252b6cb0cb38f.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 05.mp3"
+Duration = "01:40"
+Url = "https://kiddo-mp3.hle.com.tw/0377b470fb9fae0720c024a6738840fdc9ecc8ee.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 06.mp3"
+Duration = "01:36"
+Url = "https://kiddo-mp3.hle.com.tw/15a381bd074e412742179c910e9a3033b3a6ba98.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 07.mp3"
+Duration = "01:33"
+Url = "https://kiddo-mp3.hle.com.tw/c34b23ab2019ee0be6374c3acf6466e40f47a802.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 08.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/a98e829dd952425ce9860aee775b6f15cb6dd164.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 09.mp3"
+Duration = "01:09"
+Url = "https://kiddo-mp3.hle.com.tw/a357ed9a7678230ec51a45c4cf9e65e97c124472.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 10.mp3"
+Duration = "01:06"
+Url = "https://kiddo-mp3.hle.com.tw/9c560bc2b834ef91551d2f277dacaaf254bdef32.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 11.mp3"
+Duration = "01:55"
+Url = "https://kiddo-mp3.hle.com.tw/11339f1ebe716de436f7c769240ba8c83f946eae.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 12.mp3"
+Duration = "00:50"
+Url = "https://kiddo-mp3.hle.com.tw/95fc376b968b8281d5e0a24c8d0fe110ea0970ad.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 13.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/4adfad8668b21f44860cae328b5ab4634ff43ffc.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 14.mp3"
+Duration = "01:48"
+Url = "https://kiddo-mp3.hle.com.tw/aa8a7854a07f8393867cd7dea72d6368f8d7386a.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 15.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/6e361352aedce4b5f706aa7d8d06587d1022da56.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 16.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/cc9cb21d5a5cf6da7f159484063bcd3c7cf2af12.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 17.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/b00c1d079616e7bbdcd4dd8a03301de3f480aa03.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 18.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/16c7535906eed12e38781d4d2764933964a173d7.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 19.mp3"
+Duration = "01:23"
+Url = "https://kiddo-mp3.hle.com.tw/5eb5f2f94c131d5bd0435824d41f459fb21b5fc7.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 20.mp3"
+Duration = "01:18"
+Url = "https://kiddo-mp3.hle.com.tw/2d8c28214d1cc7f06f89da8fe579bee7686b32ee.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 21.mp3"
+Duration = "01:15"
+Url = "https://kiddo-mp3.hle.com.tw/67c660062cfb80f0c147b9c087f6920488e00363.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 22.mp3"
+Duration = "01:01"
+Url = "https://kiddo-mp3.hle.com.tw/dc0df9ada88762a98dd0499407baee981abec741.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 23.mp3"
+Duration = "00:24"
+Url = "https://kiddo-mp3.hle.com.tw/cf55ecde003ce314b65c15a6f341598be2145394.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 24.mp3"
+Duration = "01:55"
+Url = "https://kiddo-mp3.hle.com.tw/b3016595f1010df4343d81e2084de587c2c43deb.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 25.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/d461219c6dc928a4459da64af20498d1b34644a4.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 26.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/430a5891abdd891b5885243c1df2070e5a344166.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 27.mp3"
+Duration = "01:52"
+Url = "https://kiddo-mp3.hle.com.tw/70fc221a2ecd00532997963e771a34125c8e0d2a.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 28.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/fb650349f4c94971bd8875c6ce7c4e7a37e408b6.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 29.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/8c504349dc2cfb92eee2dd3c1e6cab03ae58582f.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 30.mp3"
+Duration = "00:38"
+Url = "https://kiddo-mp3.hle.com.tw/4b393ea5012f4c299afb610f4ca29e2dc917d60e.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 31.mp3"
+Duration = "00:48"
+Url = "https://kiddo-mp3.hle.com.tw/31b396cab3d78a0efdeabe9a81754255d704bd48.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 32.mp3"
+Duration = "01:13"
+Url = "https://kiddo-mp3.hle.com.tw/8b71dbdc13b6df9a9e0487d32bbc6fa6a0d7b511.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 33.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/d4be22556bc63ff226db006d2d8ffaa1f3245227.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 34.mp3"
+Duration = "01:04"
+Url = "https://kiddo-mp3.hle.com.tw/438ef56ba7fcd1ab3592944edb3b20b8d094f6f6.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 35.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/0f3b1c4c233bdcca622eeafae1b93fa882796c19.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 36.mp3"
+Duration = "00:27"
+Url = "https://kiddo-mp3.hle.com.tw/3126a1d4b5448da1b8afece445f09940a78041be.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 37.mp3"
+Duration = "02:01"
+Url = "https://kiddo-mp3.hle.com.tw/df3e2b031f90958b6b56c332ea25df7a65fe35f3.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 38.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/a8a4e0befac2bd127d88b01c9aebbb78900dd437.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 39.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/d93977699e27fd43dff877db76e9d4a4b2cd23d1.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 40.mp3"
+Duration = "01:49"
+Url = "https://kiddo-mp3.hle.com.tw/82d33d40c8137b6f089a8e587e2fa5bec250ad7d.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 41.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/8887b1f3e897152e52af7d9e59e0a1f93d3f2e50.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 42.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/41b65445675323a0439564282e0edf1b9c04432e.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 43.mp3"
+Duration = "00:40"
+Url = "https://kiddo-mp3.hle.com.tw/fb9e595815d29f1cc3a4f215f570bb6909a271a5.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 44.mp3"
+Duration = "00:33"
+Url = "https://kiddo-mp3.hle.com.tw/a5253cf6adcb7827b7a6e80e51463d2119aaa7f2.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 45.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/a91e264435d4209afae827291fb503f264ae5b48.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 46.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/7640684d0092fa08c5a8313089750cd0f7b72dbc.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 47.mp3"
+Duration = "01:02"
+Url = "https://kiddo-mp3.hle.com.tw/f33ef4f3d854c7069323e5deb129306cb5b14f83.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 48.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/fb1b69539957711b7f792778e2f3928360c7d4f0.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 49.mp3"
+Duration = "00:30"
+Url = "https://kiddo-mp3.hle.com.tw/a3db5135fc9dbaf69d6c9fe0bc30eee1ba4a348c.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 50.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/0fbd303294a7f5bf4018995c24bbcc1b4c87f31e.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 51.mp3"
+Duration = "00:50"
+Url = "https://kiddo-mp3.hle.com.tw/2f12ac04bad7c3ffa067871083ea0d935faa97a4.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 52.mp3"
+Duration = "01:00"
+Url = "https://kiddo-mp3.hle.com.tw/b3ffbcec6b53982ea682612a1bba772e8fc776cb.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 53.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/c05901cb58691c9ddc6b3bc28bb2e9e3eafcf6a6.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD1 Track 54.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/5358d3bb1dbbd343070ef9bb15f22327cf9c506e.mp3"
+[[Cds]]
+Album = "CD 2"
+
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 01.mp3"
+Duration = "00:25"
+Url = "https://kiddo-mp3.hle.com.tw/b68e8d172378ad00eb4d8cf90df32499561939dc.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 02.mp3"
+Duration = "01:44"
+Url = "https://kiddo-mp3.hle.com.tw/63915c50f88a8febd9ce5a74028a6639aa85194e.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 03.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/4b1bdc92aacdbe7d985f2ff684eb6d22b45b44d5.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 04.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/ca77683ef17e3dceb1249026bc37978d46021c5b.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 05.mp3"
+Duration = "02:01"
+Url = "https://kiddo-mp3.hle.com.tw/852a227d24c3ee0f9fe32ae40ceb747e940d71fd.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 06.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/85438e611b9d7303c905e47f499fea3005c96005.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 07.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/349f5736327b84eb83d59026173cce4d1ce7353c.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 08.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/998d3657928507aee9b4afa79218a682324aff28.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 09.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/74da573f318b17b778bb8d9878bb77c67e7f0a56.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 10.mp3"
+Duration = "01:34"
+Url = "https://kiddo-mp3.hle.com.tw/683c364dd6b1130302a67a6ac1695fa03a4f8c3f.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 11.mp3"
+Duration = "01:28"
+Url = "https://kiddo-mp3.hle.com.tw/0e0a8428909e4db1341270bd2dd438b0adbd66d6.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 12.mp3"
+Duration = "01:25"
+Url = "https://kiddo-mp3.hle.com.tw/f980e9ba60462136b8b3bd111e62875d613f8986.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 13.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/c0b83b3d2a4a5c714bd3d751b516a76f1f792787.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 14.mp3"
+Duration = "00:25"
+Url = "https://kiddo-mp3.hle.com.tw/39918b5d36120c77d8ce8c9cf96550934a8b3d57.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 15.mp3"
+Duration = "01:59"
+Url = "https://kiddo-mp3.hle.com.tw/25586f2a4c176a5e052d55bbc57449a5e144b780.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 16.mp3"
+Duration = "01:01"
+Url = "https://kiddo-mp3.hle.com.tw/cdba20de4fbe48ef52725eec3ef9ffe63681030c.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 17.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/106f8b791d4ba208886c0ef57823dcf54c1043b6.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 18.mp3"
+Duration = "01:50"
+Url = "https://kiddo-mp3.hle.com.tw/ceea535f31de834a4ebca5eb0e5235cf972faed5.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 19.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/2d960cd01a1c6c71af232d5f91acb6eb920a0d27.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 20.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/bd2323d733fe99bb87355e82d8344fadfc5415af.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 21.mp3"
+Duration = "00:43"
+Url = "https://kiddo-mp3.hle.com.tw/d37bdb5887d04506e33a1d944c0fe20e197c02c8.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 22.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/d00cfdb6eaa60096dd240ad05fabe3d0b03b8181.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 23.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/7b780b7b62bff9e963751901ef3a1342a79554d4.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 24.mp3"
+Duration = "01:04"
+Url = "https://kiddo-mp3.hle.com.tw/4eb26989866e0f06206395d20f6193f89f29faf7.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 25.mp3"
+Duration = "01:02"
+Url = "https://kiddo-mp3.hle.com.tw/6e21ba7cff954be6e8f612127e1131b0f6782241.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 26.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/34522f86121a2017ef0d6dde4ef9f0c8e2b0feb8.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 27.mp3"
+Duration = "00:29"
+Url = "https://kiddo-mp3.hle.com.tw/b934b5a031f2d3b15d56bf2fe8f59ad12e7fc95f.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 28.mp3"
+Duration = "02:01"
+Url = "https://kiddo-mp3.hle.com.tw/00fd70e079ee07d65946aa4968dce281b9a6938f.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 29.mp3"
+Duration = "01:20"
+Url = "https://kiddo-mp3.hle.com.tw/96dd842828ad95179f18c59b389bcdc54a9bb9e8.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 30.mp3"
+Duration = "01:22"
+Url = "https://kiddo-mp3.hle.com.tw/542244575545c2a046d7eb98049088d1e9198a59.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 31.mp3"
+Duration = "01:50"
+Url = "https://kiddo-mp3.hle.com.tw/1e4c87cdc4294dbb25078c5009eae536453a90f2.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 32.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/beca6a680d162ac0b243be35a8a8a4022c443dd1.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 33.mp3"
+Duration = "00:54"
+Url = "https://kiddo-mp3.hle.com.tw/2e5e40fb71e3f0ece02584570770285902c0a46e.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 34.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/ad8fbb8b257e78af311b243c64612468bb52eb92.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 35.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/de9d0a0cf4cfefcef4ce41aa94b2a45ed3bb863c.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 36.mp3"
+Duration = "01:14"
+Url = "https://kiddo-mp3.hle.com.tw/0ca3c8bd4b7558e62b061d68fc1c0ce4cd686915.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 37.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/dee690e262eb494ebae0168cfa037f92f5dddb23.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 38.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/c882418c88d149f77bf9f9f33334548398294cd2.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 39.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/bc289708a906bb0f48ad297f7e39cf416834db27.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 40.mp3"
+Duration = "00:28"
+Url = "https://kiddo-mp3.hle.com.tw/79e4ed11253f4c794059733e684ad8d618b0fd57.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 41.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/d1c5a4ef32fa060588e1a624ca08e236213e7be7.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 42.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/3afa3aea2fb8f7cf15fec740f185e1f7b5f7eb7d.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 43.mp3"
+Duration = "02:35"
+Url = "https://kiddo-mp3.hle.com.tw/c5fcb3c9f332261ad30e7b2980780a41fd9716f3.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 44.mp3"
+Duration = "02:34"
+Url = "https://kiddo-mp3.hle.com.tw/2462973fc876c9cf706f3f39edea7e8d4957a72c.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 45.mp3"
+Duration = "01:54"
+Url = "https://kiddo-mp3.hle.com.tw/5880f10fe1a7fc83259a331a300866e34eead88f.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 46.mp3"
+Duration = "01:48"
+Url = "https://kiddo-mp3.hle.com.tw/9a6b79ac19f9fec2e2057fd73939fd47914689ed.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 47.mp3"
+Duration = "01:46"
+Url = "https://kiddo-mp3.hle.com.tw/63d4ccddba738fe3bcc8554d146f5e0c5f5693c0.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 48.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/eaf5d2d986ae27c67059ecdd289781e1951ee4d3.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 49.mp3"
+Duration = "00:59"
+Url = "https://kiddo-mp3.hle.com.tw/98aad53d66dbb4ad8cac7a7443ed7371cab35b1f.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 50.mp3"
+Duration = "01:08"
+Url = "https://kiddo-mp3.hle.com.tw/00b9300e62363e50243d8646bcdc36b55287d6da.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 51.mp3"
+Duration = "00:49"
+Url = "https://kiddo-mp3.hle.com.tw/acfc617fcfa0680d99314c75fe6e648b77242fe2.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 52.mp3"
+Duration = "00:41"
+Url = "https://kiddo-mp3.hle.com.tw/3e6e6bf868dd9054f52dd30ff1022036aab6c19e.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 53.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/ff22e2c8146ca070be1047e85e5bceaf3d5efc0e.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 54.mp3"
+Duration = "00:46"
+Url = "https://kiddo-mp3.hle.com.tw/ae623d0fb88f2283e0ef741e52b96c03fedef676.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 55.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/f625ea4b715859920ae8782eb4adc28a3b3fc384.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 56.mp3"
+Duration = "00:53"
+Url = "https://kiddo-mp3.hle.com.tw/15e14d57fd8ba4a2eefcc4857b0c38d5d18ad89f.mp3"
+[[Cds.Tracks]]
+Title = "Ready go 2 CD2 Track 57.mp3"
+Duration = "00:45"
+Url = "https://kiddo-mp3.hle.com.tw/eb3d310dcd67eccc52d2dc46a2b6285a3b449f35.mp3"
