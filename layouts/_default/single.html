@@ -45,9 +45,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex,nofollow">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
     <style type="text/css">
     .header-nav {
         height:15%;
@@ -203,12 +205,12 @@
   
     <header class="header-player" >
 
-      <audio controls="controls" id="testTone" loop="false" preload="metadata">
+      <audio controls="controls" id="testTone" preload="metadata">
       
-        <source src="/mp3s/ReadyGo2-CD2-track01.mp3" type="audio/mpeg" />
+        <source id="mp3URL" src="/mp3s/ReadyGo2-CD2-track01.mp3" type="audio/mpeg" />
      
       </audio>
-      <p id="musicLength">音樂長度: </p>
+      &nbsp &nbsp  &nbsp &nbsp<p id="musicLength">  音樂長度: </p>
 
     </header>
     <section class="main">
@@ -252,31 +254,38 @@
 
     
     <script>
-      var myaudio = document.getElementById('testTone');
-      myaudio.onloadedmetadata = function() {
-      console.log(myaudio.duration)
-      var tracklength = document.getElementById('musicLength');
-      var min=parseInt(myaudio.duration/60);
-      var sec =parseInt(myaudio.duration) - min*60;
-      tracklength.innerHTML+= `${min} : ${sec}` ; 
-      };
-  
+      function updatePlayer(){
+        var myaudio = document.getElementById('testTone');
+        myaudio.onloadedmetadata = function() {     //可抓到音樂總長度
+        console.log(myaudio.duration)
+
+        var tracklength = document.getElementById('musicLength');  //把音樂總長度顯示在tracklength上
+        var min=parseInt(myaudio.duration/60);
+        var sec =parseInt(myaudio.duration) - min*60;
+        tracklength.innerHTML+= `${min} : ${sec}` ; 
+        };
+
+
+        myaudio.addEventListener('ended',function(){    //  上一首播放結束之後  執行...
+
+        var playerHeader = document.querySelector('.header-player');      
+        playerHeader.innerHTML='';
+        console.log('playerHeader :',playerHeader);
+        playerHeader.innerHTML=`
+        <audio controls="controls" id="testTone" preload="metadata">      
+            <source id="mp3URL" src="/mp3s/ReadyGo2-CD2-track02.mp3" type="audio/mpeg" />   
+        </audio>
+        &nbsp &nbsp  &nbsp &nbsp <p id="musicLength">音樂長度: </p>`;
+        
+        updatePlayer();
+       
+       });
+
+      }
+      
+      updatePlayer();
       
 
-      console.log('typeof myaudio.duration',typeof myaudio.duration);
- 
-      console.log('myaudio.currentTime',myaudio.currentTime);
-
-       
-        myaudio.onended = function(){
-        var myaudio1 = new Audio('/mp3s/ReadyGo2-CD2-track02.mp3');
-         myaudio1.play();
-         console.log(myaudio1.duration)
-      var tracklength1 = document.getElementById('musicLength');
-       min=parseInt(myaudio.duration/60);
-       sec =parseInt(myaudio.duration) - min*60;
-      tracklength.innerHTML+= `${min} : ${sec}` ; 
-       }
     </script>
 </body>
 </html>
