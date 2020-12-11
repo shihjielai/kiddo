@@ -243,13 +243,13 @@
               <a href='#' onclick="speedfast()"><button>快速</button></a>
             </div>
           </div>
-          <div >
+          <div style="display: none;">
             <ul id="playlist">
-              <li class="active"><a href="/mp3s/ReadyGo2-CD2-track01.mp3" name="Track 01">ReadyGo CD2 track01</a></li>
-              <li><a href="/mp3s/ReadyGo2-CD2-track02.mp3" name="Track 02">ReadyGo CD2 track02</a></li>
-              <li><a href="/mp3s/ReadyGo2-CD2-track03.mp3" name="Track 03">ReadyGo CD2 track03</a></li>
-              <li><a href="/mp3s/ReadyGo2-CD2-track04.mp3" name="Track 04">ReadyGo CD2 track04</a></li>
-              <li><a href="/mp3s/ReadyGo2-CD2-track05.mp3" name="Track 05">ReadyGo CD2 track05</a></li>
+              <li class="active"><a href="/mp3s/ReadyGo2-CD2-track01.mp3" id="Track 01">ReadyGo CD2 track01</a></li>
+              <li><a href="/mp3s/ReadyGo2-CD2-track02.mp3" id="Track 02">ReadyGo CD2 track02</a></li>
+              <li><a href="/mp3s/ReadyGo2-CD2-track03.mp3" id="Track 03">ReadyGo CD2 track03</a></li>
+              <li><a href="/mp3s/ReadyGo2-CD2-track04.mp3" id="Track 04">ReadyGo CD2 track04</a></li>
+              <li><a href="/mp3s/ReadyGo2-CD2-track05.mp3" id="Track 05">ReadyGo CD2 track05</a></li>
             </ul>
           </div>
          
@@ -322,6 +322,7 @@
       function mySong(e){
          console.log(e.getAttribute('name'));
          console.log('typeog e.getAttribute("name")', typeof e.getAttribute('name'));
+         document.getElementById(e.getAttribute('name')).click();
         }
       $(function(){
 
