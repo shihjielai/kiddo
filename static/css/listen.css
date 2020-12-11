@@ -1,0 +1,132 @@
+.select-all-btn-block {
+    margin: 4px 4px 4px 10px;
+}
+
+.select-all-btn {
+    color: grey;
+}
+
+.select-all-btn:hover {
+    color: #115cca;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.cancel-all-btn {
+    color: grey;
+}
+
+.cancel-all-btn:hover {
+    color: #d23232;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.dropdown-menu.show {
+    position: absolute;
+    transform: translate3d(0px, 35px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+
+.menu-mask {
+    
+}
+
+input.checkClass {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+#mask {
+    position: absolute;
+    top: -43px;
+    left: 0;
+    z-index: 1031;
+    width: 100vw;
+    height: calc(100% + 43px);
+    background-color: black;
+    opacity: .8;
+}
+
+#mask > #mask-text-block {
+    position: fixed;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 45px;
+    margin: 50vh auto 0 auto;
+    border-radius: 5px;
+}
+
+#mask > #mask-text-block > #mask-text {
+    color: white;
+    width: 150px;
+    margin: 0 auto;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+#play-mode-block {
+    text-align: right;
+}
+
+label.radio-container {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	line-height: 16px;
+}
+
+label.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+label.radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+label.radio-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+label.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+label.radio-container .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+}
