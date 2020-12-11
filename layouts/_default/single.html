@@ -205,10 +205,10 @@
 
       <audio controls="controls" id="testTone" loop="false" preload="metadata">
       
-        <source src="/mp3s/ReadyGo2-CD2-track02.mp3" type="audio/mpeg" />
+        <source src="/mp3s/ReadyGo2-CD2-track01.mp3" type="audio/mpeg" />
      
       </audio>
-      
+      <p id="musicLength">音樂長度: </p>
 
     </header>
     <section class="main">
@@ -233,7 +233,7 @@
                     {{range $i, $sequence := (seq .startTrack .endTrack)}}
                          <div style="background-color:bisque">
                               <a href="" style="text-decoration: none;" onclick="playTHEtrack()"><h3>title: {{printf "Track %02d" $sequence}}</h3></a>
-                              <p id="musicLength">音樂長度: </p>
+                              
 
                               {{$uniqueFilename := (print $publication "-" $cd "-" (printf "track%02d" $sequence))}}
                              <h3>未hash之檔名: {{print $publication "-" $cd "-" (printf "track%02d" $sequence)}}</h3>
@@ -269,8 +269,13 @@
 
        
         myaudio.onended = function(){
-        var myaudio = new Audio('/mp3s/ReadyGo2-CD2-track02.mp3');
-         myaudio.play();
+        var myaudio1 = new Audio('/mp3s/ReadyGo2-CD2-track02.mp3');
+         myaudio1.play();
+         console.log(myaudio1.duration)
+      var tracklength1 = document.getElementById('musicLength');
+       min=parseInt(myaudio.duration/60);
+       sec =parseInt(myaudio.duration) - min*60;
+      tracklength.innerHTML+= `${min} : ${sec}` ; 
        }
     </script>
 </body>
