@@ -295,7 +295,7 @@
                 
                   
                     <div class="{{.Title}}">                           
-                        <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3>{{.Title}}</h3></a>
+                        <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3 >{{.Title}}</h3></a>
                     </div>       
                                         
                {{end}}
@@ -336,9 +336,18 @@
          function mySong(e){
          var trackExpression= document.querySelectorAll('.trackExpression');//選取出陣列     
          for(var i=0; i<trackExpression.length; i++){
-          trackExpression[i].style.color = 'rgb(119,119,119)';
+          trackExpression[i].style.color = 'rgb(119,119,119)'; 
+
+          //挑選出每個track的名稱  選擇片段  當作其h3的class選擇片段  當作其h3的class       
+          var eachTrackTitle= trackExpression[i].getAttribute('name').split(" ");         
+          var addClassforh3=eachTrackTitle.slice(3,4)[0]+eachTrackTitle.slice(-1)[0].slice(0,2);
+          trackExpression[i].firstChild.classList.add(addClassforh3);
+
           }
-         e.style.color='rgb(72,118,175)';          
+          //為使用者所選擇的track  title上色
+         e.style.color='rgb(72,118,175)';    
+         
+         //觸發其click事件
          document.getElementById(e.getAttribute('name')).click();
       
         }
@@ -392,15 +401,33 @@
           }
    
           function run(link, player){        
-           player.src = link.attr('href'); //直接把mp3連結 加到 audio的src屬性            
+           player.src = link.attr('href'); //直接把mp3連結 加到 audio的src屬性     
+         
            par = link.parent(); // 抓到<li>
            par.addClass('active').siblings().removeClass('active'); //把目前撥放的<li> 增加active class   //其他的siblings移除active class
            //audio[0].load();          
-            audio[0].play();
-          //  console.log("audio[0]= ",audio[0]);
+       
+           audio[0].play();
+        
+          currentTrack(link.attr('id'));
           }
      
+         
         });
+        //目前播放的音軌  hightlight 其background
+        function currentTrack(stringArray){
+            var stringArr=stringArray.split(" ");
+            stringArr.slice(3,4)[0];
+            stringArr.slice(-1)[0].slice(0,2);     
+            var allTracks=document.querySelectorAll('h3');
+            for(var i=0; i<allTracks.length; i++){
+              allTracks[i].style.backgroundColor="#FFFFFF";
+            }
+            var theTrack = document.getElementsByClassName(stringArr.slice(3,4)[0]+stringArr.slice(-1)[0].slice(0,2));
+            console.log(theTrack);
+            theTrack[0].style.backgroundColor="#FFFFCE";
+        
+          }
     </script>
 
 
