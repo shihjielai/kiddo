@@ -65,7 +65,7 @@
     }
     section.main{
         height:100px;
-        background-color:#e4e4e4;  
+        /* background-color:#e4e4e4;   */
         flex-grow:1;  /*充滿剩餘的空間*/
         overflow-y: auto;
     }
@@ -207,6 +207,9 @@
     a:hover{
       cursor: pointer;
     }
+    #playlist li.active{
+      background-color:chocolate;
+    }
     </style>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     
@@ -227,9 +230,7 @@
         <div style="display: flex;justify-content: center;">
          
           <audio controls="controls" tabindex="0" preload="none" id="testTone" preload="metadata" controlsList="nodownload" > 
-          
-            <!-- <source id="mp3URL" src="/mp3s/ReadyGo2-CD2-track01.mp3" type="audio/mpeg" /> -->
-
+                      
           </audio>
         </div>
           <div class="adjustPlayer" style="width:80vw; ">
@@ -250,7 +251,8 @@
           <div style="display: none;">
             {{$title := .Title}} 
             {{with (index .Site.Data .File.TranslationBaseName)}}
-            <ul id="playlist">
+            <!-- 播放清單 -->
+            <ul id="playlist">    
                 {{range .Cds}}
                     {{range .Tracks}}
                     <li><a href="{{.Url}}" id="{{.Title}}"></a></li>
@@ -289,12 +291,13 @@
                {{$Album := .Album}}
                <h2 style="background-color: brown; color: white">{{.Album}}</h2>
                {{range .Tracks}}
-                       
-                         <div style="background-color:bisque">
-                              <a  onclick="mySong(this)" style="text-decoration: none;" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3>{{.Title}}</h3></a>
-                                               
-                         </div>
-                    
+                     {{$title :=.Title}}
+                
+                  
+                    <div class="{{.Title}}">                           
+                        <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3>{{.Title}}</h3></a>
+                    </div>       
+                                        
                {{end}}
           {{end}}
      {{end}}
@@ -307,7 +310,7 @@
 
     
     <script>
-
+   //播放速度慢中快
       function speedlow(){
         var myaudio = document.getElementById('testTone');
           console.log(myaudio);
@@ -330,53 +333,21 @@
           console.log('myaudio.playbackRate = 1.5;')
       }
 
-      function mySong(e){
-         e.style.color='orange';
-         
-         console.log(e.getAttribute('name'));
-         console.log('typeog e.getAttribute("name")', typeof e.getAttribute('name'));
+         function mySong(e){
+         var trackExpression= document.querySelectorAll('.trackExpression');//選取出陣列     
+         for(var i=0; i<trackExpression.length; i++){
+          trackExpression[i].style.color = 'rgb(119,119,119)';
+          }
+         e.style.color='rgb(72,118,175)';          
          document.getElementById(e.getAttribute('name')).click();
-        }
-      $(function(){
-
-         
- 
-      // 目前不需要
-      // function updatePlayer(){
-      //   var myaudio = document.getElementById('testTone');
-      //   myaudio.onloadedmetadata = function() {     //可抓到音樂總長度
-      //   console.log(myaudio.duration)
-
-      //   var tracklength = document.getElementById('musicLength');  //把音樂總長度顯示在tracklength上
-      //   var min=parseInt(myaudio.duration/60);
-      //   var sec =parseInt(myaudio.duration) - min*60;
-      //   tracklength.innerHTML+= `${min} : ${sec}` ; 
-      //   };
-
-
-        // myaudio.addEventListener('ended',function(){    //  上一首播放結束之後  執行...
-
-        // var playerHeader = document.querySelector('.header-player');      
-        // playerHeader.innerHTML='';
-        // console.log('playerHeader :',playerHeader);
-        // playerHeader.innerHTML=`
-        // <audio controls="controls" id="testTone" preload="metadata">      
-        //     <source id="mp3URL" src="/mp3s/ReadyGo2-CD2-track02.mp3" type="audio/mpeg" />   
-        // </audio>
-        // &nbsp &nbsp  &nbsp &nbsp <p id="musicLength">音樂長度: </p>`;
-        
-        // updatePlayer();
-       
-      //  });
-
-      // }
       
-      // updatePlayer();
+        }
 
+    
 
-     //播放速度
+      $(function(){         
+   
      
-
           var audio;
           var playlist;
           var tracks;
@@ -384,48 +355,51 @@
 
           init();
           function init(){
+            console.log("網頁載入就進來");//只有進來一次
               current = 0;
-              audio = $('audio');
-              playlist = $('#playlist');
-              tracks = playlist.find('li a');
-              len = tracks.length;
-              audio[0].volume = .10;
-              audio[0].play();
-              console.log('audio[0]=',audio[0]);
-              playlist.find('a').click(function(e){
-                  e.preventDefault();
-                  link = $(this);
-                  current = link.parent().index();
-                  run(link, audio[0]);
+              audio = $('audio');           
+              playlist = $('#playlist');            
+              tracks = playlist.find('li a'); //尋找隱藏起來的playlisy 裡面的li a  
+              len = tracks.length;           
+              audio[0].volume = 0.5;//音量大小
+              audio[0].play();  //目前  一開始audio裡面沒有歌曲          
+              playlist.find('a').click(function(e){  //第一次 就把所有的a 都加入了click事件
+                  e.preventDefault();              
+                  link = $(this); // <a> 標籤
+                  current = link.parent().index(); //li 的index
+                  console.log(' current = link.parent().index(); =', current); //一開始預設是第0個 <li>
+                  run(link, audio[0]); //執行<a>標籤裡 href的mp3  
               });
               audio[0].addEventListener('ended',function(e){
-                  // var ealierElement = document.getElementById(`${e}_`)
                 var val=$('input:radio[name="loopType"]:checked').val();
-                console.log('audio[0]=',audio[0]);
-                console.log('current= ',current);
-                if(val=="eachMusic"){
-                  current++;
-                  console.log('current= ',current);
-                  if(current == len){
+                console.log("事件已經先監聽嗎?")//沒有
+                console.log('audio[0]=',audio[0]);//此時audio[0]已經換成下一首了 (why???!)????????
+                console.log('current= ',current); //current 還沒換
+                if(val=="eachMusic"){ //選擇全部撥放
+                  current++;             
+                  if(current == len){  //放到最後一首  就回到第一首開始放
                       current = 0;
                       link = playlist.find('a')[0];
                   }else{
-                      link = playlist.find('a')[current];    
+                      link = playlist.find('a')[current];                   
                   }
                 }
-                else{
+                else{    //選擇單曲循環
                   link = playlist.find('a')[current]; 
                 }
-                  run($(link),audio[0]);
+                  run($(link),audio[0]);  //why 這裡的link要加$()??  而且不加會無法執行
               });
           }
-          function run(link, player){
-                  player.src = link.attr('href');
-                  par = link.parent();
-                  par.addClass('active').siblings().removeClass('active');
-                  audio[0].load();
-                  audio[0].play();
+   
+          function run(link, player){        
+           player.src = link.attr('href'); //直接把mp3連結 加到 audio的src屬性            
+           par = link.parent(); // 抓到<li>
+           par.addClass('active').siblings().removeClass('active'); //把目前撥放的<li> 增加active class   //其他的siblings移除active class
+           //audio[0].load();          
+            audio[0].play();
+          //  console.log("audio[0]= ",audio[0]);
           }
+     
         });
     </script>
 
