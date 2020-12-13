@@ -424,7 +424,8 @@
             var allTracks=document.querySelectorAll('h3');
             for(var i=0; i<allTracks.length; i++){
               allTracks[i].style.backgroundColor="#FFFFFF";
-        
+              allTracks[i].parentNode.parentNode.style.backgroundColor="#FFFFFF";
+              allTracks[i].parentNode.parentNode.firstElementChild.src="/images/icon_note_g.svg";
             }
             var allTracksduration=document.querySelectorAll('p');
             for(var i=0; i<allTracksduration.length; i++){
@@ -433,10 +434,14 @@
         
             }
             var theTrack = document.getElementsByClassName(stringArr.slice(3,4)[0]+stringArr.slice(-1)[0].slice(0,2));
-            console.log(theTrack);
-            theTrack[0].style.backgroundColor="#FFFFCE";  
-            theTrack[1].style.backgroundColor="#FFFFCE";
-            theTrack[1].style.color="	#95CACA"       
+            console.log(theTrack[0]);
+            theTrack[0].style.backgroundColor="#FFFFCE";             
+            theTrack[0].parentNode.parentNode.style.backgroundColor="#FFFFCE";
+            console.log(theTrack[0].parentNode.previousSibling);
+            theTrack[0].parentNode.parentNode.firstElementChild.src="/images/icon_note.svg";
+  
+            // theTrack[1].style.backgroundColor="#97CBFF";  //先不單獨改duration的背景色
+            // theTrack[1].style.color="#007979"       
         
           }
     </script>
