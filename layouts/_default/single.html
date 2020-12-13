@@ -66,6 +66,7 @@
     section.main{
         height:100px;
         /* background-color:#e4e4e4;   */
+     
         flex-grow:1;  /*充滿剩餘的空間*/
         overflow-y: auto;
     }
@@ -294,8 +295,9 @@
                      {{$title :=.Title}}
                 
                   
-                    <div class="{{.Title}}">                           
-                        <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3 >{{.Title}}</h3></a>
+                    <div class="{{.Title}}" style="display: flex;justify-content: center;">                           
+                       <img src="/images/icon_note_g.svg" alt="" style="width: 15px;padding-right: 10px;"> <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);display: flex;justify-content: center;" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3 >{{.Title}}</h3> <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p></a>
+                      
                     </div>       
                                         
                {{end}}
@@ -342,7 +344,7 @@
           var eachTrackTitle= trackExpression[i].getAttribute('name').split(" ");         
           var addClassforh3=eachTrackTitle.slice(3,4)[0]+eachTrackTitle.slice(-1)[0].slice(0,2);
           trackExpression[i].firstChild.classList.add(addClassforh3);
-
+          trackExpression[i].lastChild.classList.add(addClassforh3);
           }
           //為使用者所選擇的track  title上色
          e.style.color='rgb(72,118,175)';    
@@ -422,10 +424,19 @@
             var allTracks=document.querySelectorAll('h3');
             for(var i=0; i<allTracks.length; i++){
               allTracks[i].style.backgroundColor="#FFFFFF";
+        
+            }
+            var allTracksduration=document.querySelectorAll('p');
+            for(var i=0; i<allTracksduration.length; i++){
+              allTracksduration[i].style.backgroundColor=" rgb(169, 223, 236)";
+              allTracksduration[i].style.color="#ffffff"
+        
             }
             var theTrack = document.getElementsByClassName(stringArr.slice(3,4)[0]+stringArr.slice(-1)[0].slice(0,2));
             console.log(theTrack);
-            theTrack[0].style.backgroundColor="#FFFFCE";
+            theTrack[0].style.backgroundColor="#FFFFCE";  
+            theTrack[1].style.backgroundColor="#FFFFCE";
+            theTrack[1].style.color="	#95CACA"       
         
           }
     </script>
