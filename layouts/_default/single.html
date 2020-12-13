@@ -254,9 +254,11 @@
             {{with (index .Site.Data .File.TranslationBaseName)}}
             <!-- 播放清單 -->
             <ul id="playlist">    
-                {{range .Cds}}
-                    {{range .Tracks}}
-                    <li><a href="{{.Url}}" id="{{.Title}}"></a></li>
+                {{range $index, $cds := .Cds}}
+                    {{$Album := (print "CD" (add $index 1)) }}
+                        {{range $index, $element :=.Tracks}}
+                            {{$title := (print $Album (add $index 1))}} 
+                         <li><a href="{{.Url}}" id="{{$title}}"></a></li>
 
                     {{end}}
                 {{end}}
@@ -288,17 +290,17 @@
      {{with (index .Site.Data .File.TranslationBaseName)}}
           {{$prefix := .urlPrefix}}
           <!-- {{$publication := .publication}} -->
-          {{range .Cds}}
-               {{$Album := .Album}}
+          {{range $index, $cds := .Cds}}
+               {{$Album := (print "CD" (add $index 1)) }}
                <h2 style="background-color: brown; color: white">{{.Album}}</h2>
-               {{range .Tracks}}
-                     {{$title :=.Title}}
-                
-                  
-                    <div class="{{.Title}}" style="display: flex;justify-content: center;">                           
-                       <img src="/images/icon_note_g.svg" alt="" style="width: 15px;padding-right: 10px;"> <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);display: flex;justify-content: center;" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3 >{{.Title}}</h3> <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p></a>
-                      
-                    </div>       
+               {{range $index, $element :=.Tracks}}
+                     {{$title := (print $Album (add $index 1))}} 
+                        <!-- <p>{{ $title }}</p>                       -->
+                     <div class="{{.Title}}" style="display: flex;justify-content: center;">                           
+                       <img src="/images/icon_note_g.svg" alt="" style="width: 15px;padding-right: 10px;"> 
+                       <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);display: flex;justify-content: center;" name='{{$title}}' id="{{.Url}}_{{.Title}}"><h3 >{{print "Track" $index}}</h3> <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p></a>
+                       <!-- <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);display: flex;justify-content: center;" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3 >{{print "Track" $index}}</h3> <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p></a> -->
+                     </div>       
                                         
                {{end}}
           {{end}}
@@ -340,11 +342,11 @@
          for(var i=0; i<trackExpression.length; i++){
           trackExpression[i].style.color = 'rgb(119,119,119)'; 
 
-          //挑選出每個track的名稱  選擇片段  當作其h3的class選擇片段  當作其h3的class       
-          var eachTrackTitle= trackExpression[i].getAttribute('name').split(" ");         
-          var addClassforh3=eachTrackTitle.slice(3,4)[0]+eachTrackTitle.slice(-1)[0].slice(0,2);
-          trackExpression[i].firstChild.classList.add(addClassforh3);
-          trackExpression[i].lastChild.classList.add(addClassforh3);
+          //挑選出每個track的名稱  選擇片段  當作其h3的class       
+          var eachTrackTitle= trackExpression[i].getAttribute('name');         
+          
+          trackExpression[i].firstChild.classList.add(eachTrackTitle);
+          trackExpression[i].lastChild.classList.add(eachTrackTitle);
           }
           //為使用者所選擇的track  title上色
          e.style.color='rgb(72,118,175)';    
@@ -418,9 +420,9 @@
         });
         //目前播放的音軌  hightlight 其background
         function currentTrack(stringArray){
-            var stringArr=stringArray.split(" ");
-            stringArr.slice(3,4)[0];
-            stringArr.slice(-1)[0].slice(0,2);     
+            // var stringArr=stringArray.split(" ");
+            // stringArr.slice(3,4)[0];
+            // stringArr.slice(-1)[0].slice(0,2);     
             var allTracks=document.querySelectorAll('h3');
             for(var i=0; i<allTracks.length; i++){
               allTracks[i].style.backgroundColor="#FFFFFF";
@@ -433,7 +435,7 @@
               allTracksduration[i].style.color="#ffffff"
         
             }
-            var theTrack = document.getElementsByClassName(stringArr.slice(3,4)[0]+stringArr.slice(-1)[0].slice(0,2));
+            var theTrack = document.getElementsByClassName(stringArray);
             console.log(theTrack[0]);
             theTrack[0].style.backgroundColor="#FFFFCE";             
             theTrack[0].parentNode.parentNode.style.backgroundColor="#FFFFCE";
