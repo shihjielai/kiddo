@@ -467,59 +467,56 @@
 
     <footer style="height: 60px;"></footer>
     {{ partial "footer" . }}
-
+    <p style="display: none;" id="theSpeed" >1.0</p>
     <script>
-
-function speedlow(){
-        var myaudio = document.getElementById('testTone');
-          console.log(myaudio);
-          myaudio.playbackRate = 0.5;
-          console.log('myaudio.playbackRate = 0.5;')
    
-      }
+      var mp3Speed;
+        function speedlow(){
+        var myaudio = document.getElementById('testTone');        
+          mp3Speed=0.5;
+          myaudio.playbackRate = mp3Speed;          
+          document.getElementById('theSpeed').innerHTML=mp3Speed;
+      
+          }
 
       function speednormal(){
         var myaudio = document.getElementById('testTone');
-        
-          myaudio.playbackRate = 1.0;
-          console.log('myaudio.playbackRate = 1.0;')
+          mp3Speed=1.0;
+          myaudio.playbackRate = mp3Speed;             
+         document.getElementById('theSpeed').innerHTML=mp3Speed;
+   
       }
   
       function speedfast(){
-        var myaudio = document.getElementById('testTone');
-          console.log(myaudio);
-          myaudio.playbackRate = 1.5;
-          console.log('myaudio.playbackRate = 1.5;')
+        var myaudio = document.getElementById('testTone');        
+          mp3Speed=2.0;
+          myaudio.playbackRate = mp3Speed;             
+         document.getElementById('theSpeed').innerHTML=mp3Speed;
       }
 
          function mySong(e){
          var trackExpression= document.querySelectorAll('.trackExpression');//選取出陣列     
-         for(var i=0; i<trackExpression.length; i++){
-          trackExpression[i].style.color = 'rgb(119,119,119)'; 
+            for(var i=0; i<trackExpression.length; i++){
+              trackExpression[i].style.color = 'rgb(119,119,119)'; 
 
-          //挑選出每個track的名稱  選擇片段  當作其h3的class       
-          var eachTrackTitle= trackExpression[i].getAttribute('name');         
-         
-          trackExpression[i].firstElementChild.classList.add(eachTrackTitle);
-          trackExpression[i].firstElementChild.classList.add(eachTrackTitle);
-          }
+              //挑選出每個track的名稱  選擇片段  當作其h3的class       
+              var eachTrackTitle= trackExpression[i].getAttribute('name');         
+            
+              trackExpression[i].firstElementChild.classList.add(eachTrackTitle);
+              trackExpression[i].firstElementChild.classList.add(eachTrackTitle);
+              }
           //為使用者所選擇的track  title上色
          e.style.color='rgb(72,118,175)';    
          
          //觸發其click事件
          document.getElementById(e.getAttribute('name')).click();
-         var playButtons=document.getElementsByClassName('playerButton');
-         playButtons[0].style.color='gray';
-         playButtons[0].style.backgroundColor='rgb(239, 239, 239)';
-         playButtons[2].style.color='gray';
-         playButtons[2].style.backgroundColor='rgb(239, 239, 239)';
-         playButtons[1].style.color='white';
-         playButtons[1].style.backgroundColor='rgb(0,98,204)';
-        
       
         }
 
+
       $(function(){
+
+        var mp3Speed;
         hideCD(2);
 
         function hideCD(tabIndex) { 
@@ -554,7 +551,7 @@ function speedlow(){
           $(this).css('color','white');
           
         })
-        var audio;
+           var audio;
           var playlist;
           var tracks;
           var current;
@@ -577,6 +574,8 @@ function speedlow(){
                   run($(link), audio[0]); //執行<a>標籤裡 href的mp3  
               });
               audio[0].addEventListener('ended',function(e){
+
+
                 var val=$('input:radio[name="loopType"]:checked').val();
         
                 // console.log('audio[0]=',audio[0]);//此時audio[0]已經換成下一首了 (why???!)????????
@@ -593,19 +592,24 @@ function speedlow(){
                 else{    //選擇單曲循環
                   link = playlist.find('a')[current]; 
                 }
-                
-                     
+              
                   run($(link),audio[0]);  
               });
+
+
           }
-   
+       
+        
+
           function run(link, player){        
            player.src = link.attr('href'); //直接把mp3連結 加到 audio的src屬性     
          
            par = link.parent(); // 抓到<li>
            par.addClass('active').siblings().removeClass('active'); //把目前撥放的<li> 增加active class   //其他的siblings移除active class
            //audio[0].load();          
-       
+    
+           var speedFloat=parseFloat($('#theSpeed')[0].innerHTML);
+           audio[0].playbackRate=speedFloat;
            audio[0].play();
         
            currentTrack(link.attr('id'));
@@ -631,9 +635,9 @@ function speedlow(){
             var theTrack = document.getElementsByClassName(stringArray);
            
             theTrack[0].style.backgroundColor="rgb(229,236,243)";  
-            console.log(theTrack[0].parentNode.parentNode.style.backgroundColor);         
+         
             theTrack[0].parentNode.style.backgroundColor="rgb(229,236,243)";
-            console.log(theTrack[0].parentNode.parentNode.style.backgroundColor);  
+
             theTrack[0].parentNode.parentNode.firstElementChild.src="/images/icon_note.svg";
   
             // theTrack[1].style.backgroundColor="#97CBFF";  //先不單獨改duration的背景色
