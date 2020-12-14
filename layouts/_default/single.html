@@ -283,7 +283,7 @@
   
     <section class="main">
 
-
+     
 
 
      {{$title := .Title}} 
@@ -298,7 +298,7 @@
                         <!-- <p>{{ $title }}</p>                       -->
                      <div class="{{.Title}}" style="display: flex;justify-content: center;">                           
                        <img src="/images/icon_note_g.svg" alt="" style="width: 15px;padding-right: 10px;"> 
-                       <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);display: flex;justify-content: center;" name='{{$title}}' id="{{.Url}}_{{.Title}}"><h3 >{{print "Track" " " $index}}</h3> <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p></a>
+                       <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);display: flex;justify-content: center;" name='{{$title}}' ><h3 >{{print "Track" " " $index}}</h3> <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p></a>
                        <!-- <a onclick="mySong(this)" class="trackExpression" style="text-decoration: none;color: rgb(119,119,119);display: flex;justify-content: center;" name='{{.Title}}' id="{{.Url}}_{{.Title}}"><h3 >{{print "Track" $index}}</h3> <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p></a> -->
                      </div>       
                                         
