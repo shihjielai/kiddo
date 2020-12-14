@@ -409,7 +409,7 @@
                                   <span style="margin-top: 2px">播放速度</span> 
                                   <div style="background-color:rgb(239, 239, 239);border-radius:15px ;margin-left: 10px;"> 
                                     <a href='#' onclick="speedlow()" class="playera" style="display: inline-block;text-decoration: none;"><div class="playerButton" style="border-radius: 15px 0 0 15px;">慢速</div></a>
-                                    <a href='#' onclick="speednormal()" class="playera" style="display: inline-block;text-decoration: none;"><div class="playerButton">正常</div></a>
+                                    <a href='#' onclick="speednormal()" class="playera" style="display: inline-block;text-decoration: none;"><div class="playerButton" style="background-color:rgb(0,98,204);color: #ffffff;">正常</div></a>
                                     <a href='#' onclick="speedfast()" class="playera" style="display: inline-block;text-decoration: none"><div class="playerButton" style="border-radius: 0 15px 15px 0;" >快速</div></a>
                                   </div>
                                 </div>
@@ -508,6 +508,14 @@ function speedlow(){
          
          //觸發其click事件
          document.getElementById(e.getAttribute('name')).click();
+         var playButtons=document.getElementsByClassName('playerButton');
+         playButtons[0].style.color='gray';
+         playButtons[0].style.backgroundColor='rgb(239, 239, 239)';
+         playButtons[2].style.color='gray';
+         playButtons[2].style.backgroundColor='rgb(239, 239, 239)';
+         playButtons[1].style.color='white';
+         playButtons[1].style.backgroundColor='rgb(0,98,204)';
+        
       
         }
 
