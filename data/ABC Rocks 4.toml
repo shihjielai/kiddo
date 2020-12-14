@@ -1,0 +1,570 @@
+Volume = "ABC Rocks 4"
+VolumeImage = "https://kiddo-mp3.hle.com.tw/ABC Rocks 4.jpg"
+UrlPrefix = "https://kiddo-mp3.hle.com.tw/"
+
+[[Cds]]
+Album = "CD 1"
+
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 01.mp3"
+Duration = "00:22"
+Url = "https://kiddo-mp3.hle.com.tw/7fea412707e75ee0afd065dadb0c3d550854d654.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 02.mp3"
+Duration = "02:01"
+Url = "https://kiddo-mp3.hle.com.tw/5af3d0953b724130fd4b2c2277917546a5e21068.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 03.mp3"
+Duration = "01:04"
+Url = "https://kiddo-mp3.hle.com.tw/3c11358cf6a5b311e6704d1fa0fa7eec23ef2d22.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 04.mp3"
+Duration = "01:04"
+Url = "https://kiddo-mp3.hle.com.tw/1961744b49e2f33a9e9862204222739d93c63144.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 05.mp3"
+Duration = "01:22"
+Url = "https://kiddo-mp3.hle.com.tw/ed59338b3976eb2a733f35a493b2602993007c6c.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 06.mp3"
+Duration = "00:40"
+Url = "https://kiddo-mp3.hle.com.tw/7a805641f9f9d209eea82d9f5188898f3cc7e63b.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 07.mp3"
+Duration = "01:25"
+Url = "https://kiddo-mp3.hle.com.tw/b45a64c57a7a02cd597c680b6d1cdb62a1ef33dd.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 08.mp3"
+Duration = "01:23"
+Url = "https://kiddo-mp3.hle.com.tw/8b4eca0906834a836b070cc67892ef27b0947dcf.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 09.mp3"
+Duration = "01:18"
+Url = "https://kiddo-mp3.hle.com.tw/ef6e098ed34b0c0ebf0da19ee7fb4f9c1ca1cd67.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 10.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/3d7deda53545048167f084f805e03a5dae396782.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 11.mp3"
+Duration = "01:47"
+Url = "https://kiddo-mp3.hle.com.tw/473aea0615ddc03133d470aa32aa7687703f78ef.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 12.mp3"
+Duration = "01:27"
+Url = "https://kiddo-mp3.hle.com.tw/71800acd829381ee95888f88fb1f79f9faa0aa3e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 13.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/aab8ef570e758cd2ce909443c118dd2ac299bd2c.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 14.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/7b8b4ac784ec1adc66956fea78c67365b9cdcb92.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 15.mp3"
+Duration = "00:25"
+Url = "https://kiddo-mp3.hle.com.tw/9527476a667d79cb7be9d1a390d369163ef6508d.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 16.mp3"
+Duration = "00:24"
+Url = "https://kiddo-mp3.hle.com.tw/7b2638e12241b7f703c01e651efa18cfe0754a8d.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 17.mp3"
+Duration = "01:06"
+Url = "https://kiddo-mp3.hle.com.tw/0ba1bb531ca467e3518790ac47084843e4cdd925.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 18.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/36e1eb25cace30b78557c3d3ddbd96577875613f.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 19.mp3"
+Duration = "01:11"
+Url = "https://kiddo-mp3.hle.com.tw/0860fed09454448f0bce2793ba4d0de0bf33d81b.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 20.mp3"
+Duration = "00:48"
+Url = "https://kiddo-mp3.hle.com.tw/1270ea4130856cbeabba51200daac73bf93a5ce5.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 21.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/91121a8adeee1abadad20d53abdfada20305c2f9.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 22.mp3"
+Duration = "00:40"
+Url = "https://kiddo-mp3.hle.com.tw/8913f52bcaee41e5cf5b629f959209521e14beff.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 23.mp3"
+Duration = "01:24"
+Url = "https://kiddo-mp3.hle.com.tw/ba47f8f54950dbe5ed6bc2e9888f714047559cc9.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 24.mp3"
+Duration = "01:17"
+Url = "https://kiddo-mp3.hle.com.tw/642c2ed679f1e69d5de0b339283cde4598aed7aa.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 25.mp3"
+Duration = "01:11"
+Url = "https://kiddo-mp3.hle.com.tw/1010ab942ec4267669b99256ccd710a07fa3481e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 26.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/fce4b85899110fab941c9ae42830924ae40990e0.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 27.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/1e880b58f425395b9f97290bfdb8d1a3fafa011d.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 28.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/9242dec07f2c083474968de1417c9c79b28941f6.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 29.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/45f7b812c9478acd1502e9bc88d528f0428af4fe.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 30.mp3"
+Duration = "01:03"
+Url = "https://kiddo-mp3.hle.com.tw/7d1cb69a601522e5f4dca1f69b2c87a4efa7054b.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 31.mp3"
+Duration = "01:26"
+Url = "https://kiddo-mp3.hle.com.tw/a98c95a0a85088d989032228ad1290085b287527.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 32.mp3"
+Duration = "01:14"
+Url = "https://kiddo-mp3.hle.com.tw/bd41d10cfb7293e3fabea0bab5d79e2b57b44999.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 33.mp3"
+Duration = "00:43"
+Url = "https://kiddo-mp3.hle.com.tw/317872221c9ecc388f9b028503090b6d4e0bdf42.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 34.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/caa7dff5ed1ad15cd4f3609c82ed7b32f967a9a5.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 35.mp3"
+Duration = "00:23"
+Url = "https://kiddo-mp3.hle.com.tw/d9fc1ba29087a857215d476a21825a07b1a732c3.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 36.mp3"
+Duration = "00:25"
+Url = "https://kiddo-mp3.hle.com.tw/7f8f2c9e8ec6021d11c2ffb681ce9291955dacd6.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 37.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/9b829e1d24d8e21c8c804c0fd6b1c43d5c5118ef.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 38.mp3"
+Duration = "01:31"
+Url = "https://kiddo-mp3.hle.com.tw/92cb23e773c2d30628722a988bb00cd3d6bcf4df.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 39.mp3"
+Duration = "01:11"
+Url = "https://kiddo-mp3.hle.com.tw/d625522f92f0392445330e7c1d2b592de868a36a.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 40.mp3"
+Duration = "00:39"
+Url = "https://kiddo-mp3.hle.com.tw/f7699d5777de8b28885e29a9e7b365b9a2cebe8e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 41.mp3"
+Duration = "00:38"
+Url = "https://kiddo-mp3.hle.com.tw/73fbcbf2d17990bdfa0813cc590082a31008139c.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 42.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/bc69393d58901be03d50e1c7411697385e4cfc71.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 43.mp3"
+Duration = "01:48"
+Url = "https://kiddo-mp3.hle.com.tw/dd3516ddbce7914df1594fc7265b2a47ef51c84d.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 44.mp3"
+Duration = "01:39"
+Url = "https://kiddo-mp3.hle.com.tw/135dca0dd47268443154dd89ae9bfac507230752.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 45.mp3"
+Duration = "01:36"
+Url = "https://kiddo-mp3.hle.com.tw/9aa1187c6cf37eca680c395593631b2b4d60fb27.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 46.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/abaddc165b4691d63323da3a5af68fdbda53a6ab.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 47.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/99437e9a3276f9f961ab2f2a2f72ceef28468c5d.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 48.mp3"
+Duration = "00:54"
+Url = "https://kiddo-mp3.hle.com.tw/3b87c470a235b8b1711a549d13d2880751444a28.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 49.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/df6dcfba455c6f62736a450cb2a653c7b7c76d35.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 50.mp3"
+Duration = "01:11"
+Url = "https://kiddo-mp3.hle.com.tw/5d830f1948ef758ab8c4b03cc9d523d6adba0ce5.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 51.mp3"
+Duration = "01:10"
+Url = "https://kiddo-mp3.hle.com.tw/67d6d1d7ac9c59615f1bd248d18a227f9c05265f.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 52.mp3"
+Duration = "01:01"
+Url = "https://kiddo-mp3.hle.com.tw/1b98b19b4560b0e0774c2cab95a67a231cbb25d4.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 53.mp3"
+Duration = "01:24"
+Url = "https://kiddo-mp3.hle.com.tw/9935bad18f36eae98784b32e64e6e1e99add2cce.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 54.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/317360f6bcbe825463a1f8c55854ec5635b0998e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 55.mp3"
+Duration = "00:46"
+Url = "https://kiddo-mp3.hle.com.tw/04f688ff1118da671c1ea248c12c437f5d193021.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 56.mp3"
+Duration = "00:54"
+Url = "https://kiddo-mp3.hle.com.tw/39007247715962723d2222ce9326f710d6efe52f.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 57.mp3"
+Duration = "00:53"
+Url = "https://kiddo-mp3.hle.com.tw/b5ae14171a02d729ad42818ded63b8f3b462f7d7.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 58.mp3"
+Duration = "01:00"
+Url = "https://kiddo-mp3.hle.com.tw/b55b54188abda556439c6c5ebf01bfdf835853af.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 59.mp3"
+Duration = "00:56"
+Url = "https://kiddo-mp3.hle.com.tw/55077acdd651567d9f4e4b216e2f8f4b70c66cb5.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 60.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/1ff6b290160f824283f28478848b5177a766defd.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 61.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/23ee7e04972d7bc3ed98275c2315e4a1ae8e2d7e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 62.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/5878027cff3bc30c2ece0c0203d1d99a00762f30.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD1 Track 63.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/b168d348fd86184c9e2c057bfddf996e06ac9857.mp3"
+[[Cds]]
+Album = "CD 2"
+
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 01.mp3"
+Duration = "00:22"
+Url = "https://kiddo-mp3.hle.com.tw/d837407e1729810b72f6a4c2933092a06f864552.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 02.mp3"
+Duration = "01:01"
+Url = "https://kiddo-mp3.hle.com.tw/ff572b6afb9520a82e0bc21d0a4c3393394708b7.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 03.mp3"
+Duration = "01:27"
+Url = "https://kiddo-mp3.hle.com.tw/59057110fa43f641ea28b5d4be362baac87632e3.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 04.mp3"
+Duration = "01:16"
+Url = "https://kiddo-mp3.hle.com.tw/fc91531917f9fee0a3992783b6759301f30f0b17.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 05.mp3"
+Duration = "00:44"
+Url = "https://kiddo-mp3.hle.com.tw/6ce25dee78fd354f785e1813dbc05440c200ec05.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 06.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/1ef10cd573302f7e65bd67518fbc2aa25391cc67.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 07.mp3"
+Duration = "00:23"
+Url = "https://kiddo-mp3.hle.com.tw/9cf9ca1eb2c8da1f73aa04bcf5c72faa29fc147e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 08.mp3"
+Duration = "00:23"
+Url = "https://kiddo-mp3.hle.com.tw/b3d50316fbcd93250bdb841184a8aaad6de37a2e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 09.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/4831debe4c2b7b24cce8578b25271184aa204fb4.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 10.mp3"
+Duration = "00:58"
+Url = "https://kiddo-mp3.hle.com.tw/290d06082add834fe15070b66e1dd183a778cc5a.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 11.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/3c0b75840f43e9787278fcefdbc48ac556a20f15.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 12.mp3"
+Duration = "00:40"
+Url = "https://kiddo-mp3.hle.com.tw/4b4bd6e446f955c88b5776485c523db83114b94a.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 13.mp3"
+Duration = "00:49"
+Url = "https://kiddo-mp3.hle.com.tw/77f5be6d54a1f01b079076a52e7c0872a0a19d83.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 14.mp3"
+Duration = "00:39"
+Url = "https://kiddo-mp3.hle.com.tw/a0e83364e815f1d4110d00dc600ab2f7a34a29b1.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 15.mp3"
+Duration = "01:34"
+Url = "https://kiddo-mp3.hle.com.tw/e3be24016e8cf86840eff7d0996b057a91870b15.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 16.mp3"
+Duration = "01:26"
+Url = "https://kiddo-mp3.hle.com.tw/8ecb9e315bc6540d4c3ab24199636e491b22bc9f.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 17.mp3"
+Duration = "01:23"
+Url = "https://kiddo-mp3.hle.com.tw/1730ba589bd3a9039cf638ed98221aa269f3c5b1.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 18.mp3"
+Duration = "01:28"
+Url = "https://kiddo-mp3.hle.com.tw/714c4e50e1c3ad3ad744cb301679c1aa0ee3c992.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 19.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/564d3783aca3b9f23301fdfe5ca6b4750ee0a726.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 20.mp3"
+Duration = "00:54"
+Url = "https://kiddo-mp3.hle.com.tw/4e01f93c943147e7aae0b81550a0c28a91b59403.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 21.mp3"
+Duration = "01:02"
+Url = "https://kiddo-mp3.hle.com.tw/f2cc0a3ec4122a89bef3f6916720d3334424ae7e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 22.mp3"
+Duration = "00:51"
+Url = "https://kiddo-mp3.hle.com.tw/8e715de9ce061fe3d45467e28bad9f22eb7ea029.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 23.mp3"
+Duration = "01:45"
+Url = "https://kiddo-mp3.hle.com.tw/dfe90446c73069c85fe9c30cbbeb9b8773d4f89c.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 24.mp3"
+Duration = "01:28"
+Url = "https://kiddo-mp3.hle.com.tw/8141c7b59b5d1f86838fb364880fefd9bc50a5f7.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 25.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/6432082df9a775fa37d2f2391787c6114dd9593e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 26.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/f56b0a1b6c95dfa9ea73e58e032a8673cac9ecfa.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 27.mp3"
+Duration = "00:24"
+Url = "https://kiddo-mp3.hle.com.tw/7d66365fb71fff0fa3ee3eef46d71b5483ab359a.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 28.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/037c6ec3e495657c48c784a433a62aa3ae8951ee.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 29.mp3"
+Duration = "01:22"
+Url = "https://kiddo-mp3.hle.com.tw/e9ca2d560cafabd0abe2aea0059c1f5d94b90306.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 30.mp3"
+Duration = "01:26"
+Url = "https://kiddo-mp3.hle.com.tw/b0f2a3e003c1a1c6d1bc2054f26d3cebffae410b.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 31.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/7f91763062131ff02c0d36617ebf5f805a9894fb.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 32.mp3"
+Duration = "00:33"
+Url = "https://kiddo-mp3.hle.com.tw/d662879875d292ff1ac6d5fb02856c840cf4c66f.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 33.mp3"
+Duration = "00:32"
+Url = "https://kiddo-mp3.hle.com.tw/6e5bfa491c307fb449fabc79cd5ff09a092e92ff.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 34.mp3"
+Duration = "01:22"
+Url = "https://kiddo-mp3.hle.com.tw/e7936f0b9f0f74f3d130ec721e353838c619e46a.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 35.mp3"
+Duration = "01:15"
+Url = "https://kiddo-mp3.hle.com.tw/bb814fca5bdfdb4fe299a91b57305d6237d42fc6.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 36.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/f38e93c8d6f1f0d51e484adb5261dc1a8e1ac1e0.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 37.mp3"
+Duration = "01:23"
+Url = "https://kiddo-mp3.hle.com.tw/b12aa4f99f5474faddf17d4fb35277336557c203.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 38.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/10a907dcb9754ac62070fdb13f02d9394cd7184a.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 39.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/53313c3ddf3a364fc9593526faa94a9753943060.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 40.mp3"
+Duration = "01:01"
+Url = "https://kiddo-mp3.hle.com.tw/944b496bd55ad3d6c8db991937ab3cd9547ac19f.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 41.mp3"
+Duration = "00:52"
+Url = "https://kiddo-mp3.hle.com.tw/314526288d21395b76faeb9484bede0bbffff7c9.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 42.mp3"
+Duration = "01:32"
+Url = "https://kiddo-mp3.hle.com.tw/7d9a84bb339ca0311a9b6b566e65c1a9a2a3be7f.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 43.mp3"
+Duration = "01:25"
+Url = "https://kiddo-mp3.hle.com.tw/b57b7673f40740934a3fe0d31d694e19b4a54157.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 44.mp3"
+Duration = "00:35"
+Url = "https://kiddo-mp3.hle.com.tw/67c155d77f9f6f79adc32cbb974d2c0b98538e08.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 45.mp3"
+Duration = "00:37"
+Url = "https://kiddo-mp3.hle.com.tw/b8f4b9bd02c4102ee4f0989a434d891c3c540cba.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 46.mp3"
+Duration = "00:24"
+Url = "https://kiddo-mp3.hle.com.tw/cb82e4ae0375741c71524fc3ce485eb9212bd546.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 47.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/eb3f6578ec888e7c6f962f96b8bb5023e8ca60ad.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 48.mp3"
+Duration = "01:08"
+Url = "https://kiddo-mp3.hle.com.tw/50789bcd249d6db0e31fd3373964d78fd350881d.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 49.mp3"
+Duration = "00:24"
+Url = "https://kiddo-mp3.hle.com.tw/0b7c7829901a9d88927aef489d9ef2e1dffcb858.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 50.mp3"
+Duration = "01:15"
+Url = "https://kiddo-mp3.hle.com.tw/fe0a10533e3854fd32420ababc0d486c97d8399d.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 51.mp3"
+Duration = "00:42"
+Url = "https://kiddo-mp3.hle.com.tw/92dd658008bb09a628c3a69c60b1a12fd3e1cd80.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 52.mp3"
+Duration = "00:48"
+Url = "https://kiddo-mp3.hle.com.tw/71de6ca2b053220960ea93eff9e6253c97aa7aa0.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 53.mp3"
+Duration = "00:28"
+Url = "https://kiddo-mp3.hle.com.tw/f8cd3e9f310b91b577063edf53541083f8c7b4d7.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 54.mp3"
+Duration = "01:17"
+Url = "https://kiddo-mp3.hle.com.tw/dcd90815ecd7bd101cdc04005daa8ea2000a379e.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 55.mp3"
+Duration = "01:07"
+Url = "https://kiddo-mp3.hle.com.tw/2b2c10af3002750e8d2469fbfc84dbcf1e30ecbc.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 56.mp3"
+Duration = "01:05"
+Url = "https://kiddo-mp3.hle.com.tw/3b2168017fd75b628e83f3f65e2dc4dd91ffd5f1.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 57.mp3"
+Duration = "01:28"
+Url = "https://kiddo-mp3.hle.com.tw/ac4f1745b159dbf55daabfccfdd2c094d56e7a50.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 58.mp3"
+Duration = "00:36"
+Url = "https://kiddo-mp3.hle.com.tw/2781b19339a1861fbae8d68175f0c629172b7af7.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 59.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/4d249d818450700fa6faa8d9cacdfbc9b04aa7c0.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 60.mp3"
+Duration = "00:55"
+Url = "https://kiddo-mp3.hle.com.tw/e0b3f2d436555b6f90bad8892cb6614081db9c53.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 61.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/ed50e5e7ad9d28a7c62c80d15530fd6cd0b22f4b.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 62.mp3"
+Duration = "01:08"
+Url = "https://kiddo-mp3.hle.com.tw/56167e7d4b183a075477685e62c1435e4b9734c5.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 63.mp3"
+Duration = "00:48"
+Url = "https://kiddo-mp3.hle.com.tw/a89e570228a8a667431c1a5fe4a7de65ab9af5f4.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 64.mp3"
+Duration = "01:12"
+Url = "https://kiddo-mp3.hle.com.tw/a6e9954acae938b387af5d8f2d103df10fc38b52.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 65.mp3"
+Duration = "00:45"
+Url = "https://kiddo-mp3.hle.com.tw/bee6918fe18da1370c26072f408648fc70735788.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 66.mp3"
+Duration = "00:46"
+Url = "https://kiddo-mp3.hle.com.tw/b22d1725caaa278815cad8520e17bc0961c24388.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 67.mp3"
+Duration = "00:47"
+Url = "https://kiddo-mp3.hle.com.tw/4a3b480291b76ac55e7547e9c9b7a3b2b07852c0.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 68.mp3"
+Duration = "00:54"
+Url = "https://kiddo-mp3.hle.com.tw/215f90dc37f89bb6652b0e9b21d4b0118b1b59a9.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 69.mp3"
+Duration = "00:46"
+Url = "https://kiddo-mp3.hle.com.tw/93019b47e614b9f507f6b5f3e09b7d5ef4a5a30c.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 70.mp3"
+Duration = "00:45"
+Url = "https://kiddo-mp3.hle.com.tw/6524b727706b7f715220834294b330c255d3af69.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 71.mp3"
+Duration = "01:02"
+Url = "https://kiddo-mp3.hle.com.tw/e2b9375ee2b8eb108832d83916e725066fde8cf0.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 72.mp3"
+Duration = "00:58"
+Url = "https://kiddo-mp3.hle.com.tw/57bc5744ee9cdb77749972c33746ef22ea8e5b37.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 73.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/61f74b66e365190fbc6ed5e26fad90dc0b3a2fbe.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 74.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/5d4d7bcb62873e77bed662f92c18c8fc672ff0b5.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 75.mp3"
+Duration = "00:57"
+Url = "https://kiddo-mp3.hle.com.tw/451e75d50dcc96aae398ddbfaedd0150027709cc.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 76.mp3"
+Duration = "00:58"
+Url = "https://kiddo-mp3.hle.com.tw/c707633817b4b8af61e5ca6d18361112bf6edf52.mp3"
+[[Cds.Tracks]]
+Title = "ABC ROCK 4 CD2 Track 77.mp3"
+Duration = "00:58"
+Url = "https://kiddo-mp3.hle.com.tw/572c915f04ceb7361a736b5d38ea4a7471836165.mp3"
