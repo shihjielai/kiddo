@@ -1,135 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
-    <style type="text/css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+  <style type="text/css">
     .header-nav {
-        /* background-image: url("/images/top_bg.png"); */
-        background-repeat: no-repeat;
-        background-color: rgb(96, 221, 240);
-        background-position: right;
-        overflow: hidden;
-        margin: 0 auto;
-        width: 1040px;
-        height: 180px;
-        border-radius: 8px;
-        /* height: auto; */
+      /* background-image: url("/images/top_bg.png"); */
+      background-repeat: no-repeat;
+      background-color: rgb(96, 221, 240);
+      background-position: right;
+      overflow: hidden;
+      margin: 0 auto;
+      width: 1040px;
+      height: 180px;
+      border-radius: 8px;
+      /* height: auto; */
     }
 
 
-    section.main{
-        height:100px;
-        /* background-color:#e4e4e4;   */
-        flex-grow:1;  /*充滿剩餘的空間*/
-        overflow-y: auto;
-        margin: 0px auto;
-        /* overflow-y: hidden; */
+    section.main {
+      height: 100px;
+      /* background-color:#e4e4e4;   */
+      flex-grow: 1;
+      /*充滿剩餘的空間*/
+      overflow-y: auto;
+      margin: 0px auto;
+      /* overflow-y: hidden; */
     }
 
     footer {
-        height: 8%;
-        background-color: rgb(59, 125, 185);
-        box-shadow:2px 2px 5px cadetblue;
-        margin: 0 auto;
-        width: 995px;
+      height: 8%;
+      background-color: rgb(59, 125, 185);
+      box-shadow: 2px 2px 5px cadetblue;
+      margin: 0 auto;
+      width: 995px;
     }
+
     body {
-        display: flex;
-        flex-direction: column;
-        margin:0;
-        height:100vh;
-        font-family: 'Noto Sans JP', sans-serif;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      height: 100vh;
+      font-family: 'Noto Sans JP', sans-serif;
     }
+
     .paper {
-        padding:2rem;
-        background-color: white;
-        margin:1em;
-        box-shadow: 2px 2px 5px grey;
-        margin: 0px auto;
+      padding: 2rem;
+      background-color: white;
+      margin: 1em;
+      box-shadow: 2px 2px 5px grey;
+      margin: 0px auto;
     }
+
     .cdPages {
-     display: flex;
-     justify-content:flex-start;
-     height: 50px;
-     background-color: #ffffff;
-     padding-top: 20px;
-     padding-bottom: 20px;
-     /* width: 992px; */
+      display: flex;
+      justify-content: flex-start;
+      height: 50px;
+      background-color: #ffffff;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      /* width: 992px; */
     }
+
     #CD1 {
-        width: 25%;
-        background-color:#D5E2EE;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        color:#ffffff;
-        font-size: 25px;
-        /* margin-left:15px; */
-        border-radius: 8px 8px 0px 0px;
-        /* box-shadow:2px 2px 2px rgb(177, 196, 173); */
+      width: 25%;
+      background-color: #D5E2EE;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-size: 25px;
+      /* margin-left:15px; */
+      border-radius: 8px 8px 0px 0px;
+      /* box-shadow:2px 2px 2px rgb(177, 196, 173); */
     }
+
     #CD2 {
-        width: 25%;
-        background-color:#D5E2EE;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        color:#ffffff;
-        font-size: 25px;
-        margin-left:15px;
-        border-radius: 8px 8px 0px 0px;
-        /* box-shadow:2px 2px 2px rgb(177, 196, 173); */
+      width: 25%;
+      background-color: #D5E2EE;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-size: 25px;
+      margin-left: 15px;
+      border-radius: 8px 8px 0px 0px;
+      /* box-shadow:2px 2px 2px rgb(177, 196, 173); */
     }
 
     #eng {
-        width: 108px;
-        height: 28px;
-        letter-spacing: 2px;
-        background-color: #f19700;
-        display: inline-block;
-        margin-left: 30px;
-        border-radius: 18px;
-        text-align: center;
-        color: #ffffff;
-        position: relative;
-        top: -140px;
+      width: 108px;
+      height: 28px;
+      letter-spacing: 2px;
+      background-color: #f19700;
+      /* display: inline-block; */
+      margin-left: 30px;
+      border-radius: 18px;
+      text-align: center;
+      color: #ffffff;
+      position: relative;
+      top: -140px;
     }
-      
-    audio {
-    width: 100%;
-    height: 50px;
-    padding:10px;
-    margin:5px;
-  }
-  
 
-   .playerButton{
-    padding: 3px 0;
-    width:80px;
-  
-    border: hidden;
-    display:flex;
-    justify-content: center;
-    color:gray;
-  }
-  #volume {
-        /* letter-spacing: 2px; */
-        /* background-color: #f19700; */
-        /* display: inline-block; */
-        margin-left: 200px;
-        /* text-align: center; */
-        color: #ffffff;
-        position: relative;
-        top: -150px;
-        font-weight: bolder;
-        font-size: 30px;
+    audio {
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      margin: 5px;
     }
+
+
+    .playerButton {
+      padding: 3px 0;
+      width: 80px;
+
+      border: hidden;
+      display: flex;
+      justify-content: center;
+      color: gray;
+    }
+
+    #volume {
+      letter-spacing: 2px;
+      /* background-color: #f19700; */
+      /* display: inline-block; */
+      margin-left: 200px;
+      /* text-align: center; */
+      color: #ffffff;
+      position: relative;
+      top: -150px;
+      font-weight: bolder;
+      font-size: 30px;
+    }
+
     .warning {
       display: inline-block;
       margin-left: 160px;
@@ -140,603 +148,681 @@
       /* font-weight: 400; */
     }
 
-    @media screen and  (max-width: 4096px){
-      .header-player{
-        display: inline-block;justify-content: center; 
+    @media screen and (max-width: 4096px) {
+      .header-player {
+        display: inline-block;
+        justify-content: center;
         width: 992px;
-        height:120px;
-        background-color: rgb(248,248,255);
+        height: 120px;
+        background-color: rgb(248, 248, 255);
         margin: 0 auto;
       }
-      #CD1, #CD2{
+
+      #CD1,
+      #CD2 {
         width: 116px;
       }
-      section.paper, section.main {
+
+      section.paper,
+      section.main {
         width: 992px;
       }
+
       .header-nav {
         width: 992px;
       }
+
       footer {
         width: 992px;
       }
-      .cdPages{
+
+      .cdPages {
         width: 992px;
       }
+
       #top_bg {
         transform: scale(1.2);
         padding-top: 13px;
         padding-right: 30px;
       }
+
       #ReadyGo3 {
         padding-left: 15px;
         transform: scale(0.89);
       }
 
-      /* #engText {
-        display: inline-block;
-        margin-left: -80px;
-        margin-top: -30px;
-        color: #fff;
-      } */
-      .musicImg{
-      z-index:100;
-      position: absolute;
-      top:25px;
-      left:100px;
-      width: 25px;
-      padding-right: 10px;
-     }
-     .adjustPlayer{
-      display: flex;
-      position:relative;
-     }
-     .speedDiv{
-    position:absolute;
-    right:50px;
-    display: flex;
-    justify-content:flex-end; 
-  }
-  .loopType{
-    display: flex;
-    padding-left:100px
-  }
+      .musicImg {
+        z-index: 100;
+        position: absolute;
+        top: 25px;
+        left: 100px;
+        width: 25px;
+        padding-right: 10px;
+      }
+
+      .adjustPlayer {
+        display: flex;
+        position: relative;
+      }
+
+      .speedDiv {
+        position: absolute;
+        right: 50px;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .loopType {
+        display: flex;
+        padding-left: 100px
+      }
 
       #volume {
         margin-left: 200px;
-        top: -157px;
+        top: -145px;
       }
+
       .warning {
         margin-left: 200px;
-        top: -175px;
+        top: -135px;
       }
+
       #eng {
-        margin-left: 50px;
+        margin-left: 198px;
+        top: -165px;
       }
-
-
     }
-    }
-    @media screen and (max-width: 1199px){
-    .header-player{
+
+    @media screen and (max-width: 1199px) {
+      .header-player {
         display: inline-block;
         justify-content: center;
         width: 930px;
-        height:120px;
-        background-color: rgb(248,248,255);
+        height: 120px;
+        background-color: rgb(248, 248, 255);
         margin: 0 auto;
       }
-      #CD1, #CD2{
+
+      #CD1,
+      #CD2 {
         width: 116px;
       }
-      section.paper, section.main {
+
+      section.paper,
+      section.main {
         width: 930px;
       }
+
       .header-nav {
         width: 930px;
       }
+
       footer {
         width: 930px;
       }
-      .cdPages{
+
+      .cdPages {
         width: 930px;
       }
+
       #ReadyGo3 {
         padding-left: 15px;
         transform: scale(0.89);
       }
 
-      .musicImg{
-      z-index:100;
-      position: absolute;
-      top:25px;
-      left:100px;
-      width: 25px;
-      padding-right: 10px;
-     }
-     .adjustPlayer{
-      display: flex;
-      position:relative;
-     }
+      .musicImg {
+        z-index: 100;
+        position: absolute;
+        top: 25px;
+        left: 100px;
+        width: 25px;
+        padding-right: 10px;
+      }
+
+      .adjustPlayer {
+        display: flex;
+        position: relative;
+      }
 
       #volume {
         margin-left: 200px;
-        top: -155px;
+        top: -145px;
       }
+
       .warning {
         margin-left: 200px;
-        top: -175px;
+        top: -135px;
       }
+
       #eng {
-        margin-left: 50px;
+        margin-left: 198px;
+        top: -165px;
       }
 
     }
-    @media screen and (max-width: 991px){
-      .header-player{
-        width:769px;
+
+    @media screen and (max-width: 991px) {
+      .header-player {
+        width: 769px;
         margin: 0 auto;
       }
-      #CD1, #CD2{
+
+      #CD1,
+      #CD2 {
         width: 116px;
       }
-      section.paper, section.main {
+
+      section.paper,
+      section.main {
         width: 768px;
       }
+
       .header-nav {
         width: 768px;
       }
+
       footer {
         width: 768px;
       }
-      .cdPages{
+
+      .cdPages {
         width: 768px;
       }
+
       #ReadyGo3 {
         padding-left: 15px;
         transform: scale(0.89);
       }
 
-      .musicImg{
-      z-index:100;
-      position: absolute;
-      top:25px;
-      left:100px;
-      width: 25px;
-      padding-right: 10px;
-     }
-     .adjustPlayer{
-      display: flex;
-      position:relative;
-     }
-
-      #eng{
-        margin-left: 30px;
-        /* top: -165px; */
+      #top_bg {
+        transform: scale(1.2);
+        padding-top: 13px;
+        padding-right: 8px;
       }
+
+      .musicImg {
+        z-index: 100;
+        position: absolute;
+        top: 25px;
+        left: 100px;
+        width: 25px;
+        padding-right: 10px;
+      }
+
+      .adjustPlayer {
+        display: flex;
+        position: relative;
+      }
+
       #volume {
         margin-left: 180px;
-        top: -155px;
+        top: -145px;
       }
+
       .warning {
-        margin-left: 180px;
-        top: -175px;
+        margin-left: 175px;
+        top: -135px;
+      }
+
+      #eng {
+        margin-left: 178px;
+        top: -165px;
       }
 
     }
-    @media screen and (max-width: 767px){
+
+    @media screen and (max-width: 767px) {
       .header-player {
         width: 518px;
         display: block;
         margin: 0 auto;
         height: 150px;
       }
-      #CD1, #CD2{
+
+      #CD1,
+      #CD2 {
         width: 116px;
       }
-      section.paper, section.main {
+
+      section.paper,
+      section.main {
         width: 518px;
       }
+
       .header-nav {
         width: 518px;
       }
+
       footer {
         width: 518px;
       }
-      .cdPages{
+
+      .cdPages {
         width: 518px;
       }
+
       #ReadyGo3 {
         padding-left: 15px;
         transform: scale(0.89);
       }
+
       #eng {
         margin-left: 180px;
         top: -165px;
       }
+
       #volume {
         margin-left: 180px;
-        top: -175px;
+        top: -150px;
       }
+
       #top_bg {
         transform: scale(0.3);
         padding-top: 13px;
         padding-right: 10px;
       }
+
       .warning {
         display: none;
       }
-     .musicImg{
-      z-index:100;
-      position: absolute;
-      top:22px;
-      left:40px;
-      width: 25px;
-      padding-right: 10px;
-     }
-     .adjustPlayer{
-      display:block;
-    
-      height:50px;
-     }
-     .speedDiv{
-    display: flex;
-   justify-content: flex-start;
-    margin-top: 5px;
-    margin-left: -20px;
-    margin-right: 50px;
-  }
-  .loopType{
-    justify-content: center;
-   
-  }
+
+      .musicImg {
+        z-index: 100;
+        position: absolute;
+        top: 22px;
+        left: 40px;
+        width: 25px;
+        padding-right: 10px;
+      }
+
+      .adjustPlayer {
+        display: block;
+
+        height: 50px;
+      }
+
+      .speedDiv {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 5px;
+        margin-left: -20px;
+        margin-right: 50px;
+      }
+
+      .loopType {
+        justify-content: center;
+
+      }
     }
-    @media screen and (max-width: 518px){
-     .header-player{
+
+    @media screen and (max-width: 518px) {
+      .header-player {
         width: 500px;
         display: block;
-        margin:0 auto;
+        margin: 0 auto;
       }
-      #CD1, #CD2{
+
+      #CD1,
+      #CD2 {
         width: 116px;
       }
-      section.paper, section.main {
+
+      section.paper,
+      section.main {
         width: 500px;
       }
+
       .header-nav {
         width: 500px;
       }
+
       footer {
         width: 500px;
       }
-      .cdPages{
+
+      .cdPages {
         width: 500px;
       }
+
       #top_bg {
         transform: scale(0.3);
         padding-top: 13px;
         padding-right: 10px;
       }
+
       #ReadyGo3 {
         padding-left: 15px;
         margin-top: -3px;
         transform: scale(0.9);
       }
+
       #eng {
         margin-left: 170px;
-        top: -170px;
+        top: -160px;
       }
+
       #volume {
         margin-left: 170px;
-        top: -190px;
+        top: -150px;
       }
+
       .warning {
         display: none;
       }
-      .musicImg{
-      z-index:100;
-      position: absolute;
-      top:22px;
-      left:25px;
-      width: 25px;
-      padding-right: 10px;
-     }
+
+      .musicImg {
+        z-index: 100;
+        position: absolute;
+        top: 22px;
+        left: 25px;
+        width: 25px;
+        padding-right: 10px;
+      }
     }
 
-    #CD1:hover, #CD2:hover {
+    #CD1:hover,
+    #CD2:hover {
       background-color: #f19700;
       cursor: pointer;
     }
 
-    #CD1.active, #CD2.active {
+    #CD1.active,
+    #CD2.active {
       background-color: #f19700;
-    } 
-
- 
- 
-    </style>
+    }
+  </style>
 </head>
+
 <body>
-    <header class="header-nav">
-      <!-- <h3>Rock</h3> -->
-      <!-- {{with (index .Site.Data .File.TranslationBaseName)}}
+  <header class="header-nav">
+    <!-- <h3>Rock</h3> -->
+    <!-- {{with (index .Site.Data .File.TranslationBaseName)}}
         <img src="{{.VolumeImage}}" alt="" style="width: 20%;">
       {{end}} -->
 
-      <img id="top_bg" src="/images/top_bg.png" style="float: right; transform: scale(1.599); height: auto;">
-      {{with (index .Site.Data .File.TranslationBaseName)}}
-      <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">
-      
-      {{end}}
-      <div id="eng">國小英語</div> 
-      
-      <div id="volume">{{with (index .Site.Data .File.TranslationBaseName)}} {{.Volume}} {{end}}</div>
-      
-      <div class="warning">本網頁提供之音檔僅限購買翰林CD光碟或學用電子書光碟者使用，維護年限為一學年。</div>
-      <div class="warning">不得在網路上以任何形式進行公開傳播或下載，違者必究。</div>
-      
+    <img id="top_bg" src="/images/top_bg.png" style="float: right; transform: scale(1.599); height: auto;">
+    {{with (index .Site.Data .File.TranslationBaseName)}}
+    <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">
 
-    </header>
-    <div class="cdPages" style="margin: 0px auto">
-        <div id="CD1" class="active">CD1</div>
-        <div id="CD2">CD2</div>
+    {{end}}
+    <div id="eng">國小英語</div>
+
+    <div id="volume">{{with (index .Site.Data .File.TranslationBaseName)}} {{.Volume}} {{end}}</div>
+
+    <div class="warning">本網頁提供之音檔僅限購買翰林CD光碟或學用電子書光碟者使用，維護年限為一學年。</div>
+    <div class="warning">不得在網路上以任何形式進行公開傳播或下載，違者必究。</div>
+
+
+  </header>
+  <div class="cdPages" style="margin: 0px auto">
+    <div id="CD1" class="active">CD1</div>
+    <div id="CD2">CD2</div>
+  </div>
+
+  <header class="header-player">
+
+    <div style="display: flex;justify-content: center;">
+      <audio controls="controls" tabindex="0" preload="none" id="testTone" preload="metadata" controlsList="nodownload">
+      </audio>
     </div>
-  
-    <header class="header-player" >
-     
-                        <div style="display: flex;justify-content: center;">
-                          <audio controls="controls" tabindex="0" preload="none" id="testTone" preload="metadata" controlsList="nodownload" > 
-                          </audio>
-                        </div>
-                        <div class="adjustPlayer" >
-                                <div class="loopType" >  
-                                  <input type="radio" id="oneMusic" name="loopType" value="oneMusic">
-                                  <label for="oneMusic">單曲循環</label>
-                                  <input type="radio" id="eachMusic" name="loopType" value="eachMusic" checked="true">
-                                  <label for="eachMusic">全部播放</label><br>
-                                </div>
-                                <div class="speedDiv" >
-                                  <span style="margin-top: 2px">播放速度</span> 
-                                  <div style="background-color:rgb(239, 239, 239);border-radius:15px ;margin-left: 10px;"> 
-                                    <a href='#' onclick="speedlow()" class="playera" style="display: inline-block;text-decoration: none;"><div class="playerButton" style="border-radius: 15px 0 0 15px;">慢速</div></a>
-                                    <a href='#' onclick="speednormal()" class="playera" style="display: inline-block;text-decoration: none;"><div class="playerButton" style="background-color:rgb(0,98,204);color: #ffffff;">正常</div></a>
-                                    <a href='#' onclick="speedfast()" class="playera" style="display: inline-block;text-decoration: none"><div class="playerButton" style="border-radius: 0 15px 15px 0;" >快速</div></a>
-                                  </div>
-                                </div>
-                        </div>                      
-                        <div style="display: none;">
-                              {{$title := .Title}} 
-                              {{with (index .Site.Data .File.TranslationBaseName)}}
-                              <!-- 播放清單 -->
-                              <ul id="playlist">    
-                                  {{range $index, $cds := .Cds}}
-                                      {{$Album := (print "CD" (add $index 1)) }}
-                                          {{range $index, $element :=.Tracks}}
-                                              {{$title := (print $Album (add $index 1))}} 
-                                            <li><a href="{{.Url}}" id="{{$title}}"></a></li>
-                  
-                                      {{end}}
-                                  {{end}}
-                                </ul>
-                              {{end}}                  
-                        </div>       
-    </header> 
-
-
-    <section class="main">
-
-     
-
-
-      {{$title := .Title}} 
+    <div class="adjustPlayer">
+      <div class="loopType">
+        <input type="radio" id="oneMusic" name="loopType" value="oneMusic">
+        <label for="oneMusic">單曲循環</label>
+        <input type="radio" id="eachMusic" name="loopType" value="eachMusic" checked="true">
+        <label for="eachMusic">全部播放</label><br>
+      </div>
+      <div class="speedDiv">
+        <span style="margin-top: 2px">播放速度</span>
+        <div style="background-color:rgb(239, 239, 239);border-radius:15px ;margin-left: 10px;">
+          <a href='#' onclick="speedlow()" class="playera" style="display: inline-block;text-decoration: none;">
+            <div class="playerButton" style="border-radius: 15px 0 0 15px;">慢速</div>
+          </a>
+          <a href='#' onclick="speednormal()" class="playera" style="display: inline-block;text-decoration: none;">
+            <div class="playerButton" style="background-color:rgb(0,98,204);color: #ffffff;">正常</div>
+          </a>
+          <a href='#' onclick="speedfast()" class="playera" style="display: inline-block;text-decoration: none">
+            <div class="playerButton" style="border-radius: 0 15px 15px 0;">快速</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="display: none;">
+      {{$title := .Title}}
       {{with (index .Site.Data .File.TranslationBaseName)}}
-           {{$prefix := .urlPrefix}}
-           <!-- {{$publication := .publication}} -->
-           {{range $index, $cds := .Cds}}
-                {{$Album := (print "CD" (add $index 1)) }}
-                <!-- <h2 style="background-color: brown; color: white">{{.cd}}</h2> -->
-                 <div id="tab-{{$Album}}">
-                {{range $index, $element :=.Tracks}}
-                      {{$title := (print $Album (add $index 1))}} 
-                     
-                      <div class="{{.Title}}" style="display: inline-box;position: relative;">                           
-                        <img src="/images/icon_note_g.svg" alt="" class="musicImg" > 
-                        <a onclick="mySong(this)" class="trackExpression" style="color: rgb(119,119,119);display: flex;justify-content: space-around;" name='{{$title}}' >
-                          <h3>{{print "Track" " " (add $index 1)}}</h3> 
-                          <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p>
-                        </a>
-                      
-                      </div>       
-                                 
-                {{end}}
-              </div>
-           {{end}}
+      <!-- 播放清單 -->
+      <ul id="playlist">
+        {{range $index, $cds := .Cds}}
+        {{$Album := (print "CD" (add $index 1)) }}
+        {{range $index, $element :=.Tracks}}
+        {{$title := (print $Album (add $index 1))}}
+        <li><a href="{{.Url}}" id="{{$title}}"></a></li>
+
+        {{end}}
+        {{end}}
+      </ul>
       {{end}}
-  
- 
-     </section>
+    </div>
+  </header>
 
-    <footer style="height: 60px;"></footer>
-    {{ partial "footer" . }}
-    <p style="display: none;" id="theSpeed" >1.0</p>
-    <script>
-   
+
+  <section class="main">
+
+
+
+
+    {{$title := .Title}}
+    {{with (index .Site.Data .File.TranslationBaseName)}}
+    {{$prefix := .urlPrefix}}
+    <!-- {{$publication := .publication}} -->
+    {{range $index, $cds := .Cds}}
+    {{$Album := (print "CD" (add $index 1)) }}
+    <!-- <h2 style="background-color: brown; color: white">{{.cd}}</h2> -->
+    <div id="tab-{{$Album}}">
+      {{range $index, $element :=.Tracks}}
+      {{$title := (print $Album (add $index 1))}}
+
+      <div class="{{.Title}}" style="display: inline-box;position: relative;">
+        <img src="/images/icon_note_g.svg" alt="" class="musicImg">
+        <a onclick="mySong(this)" class="trackExpression"
+          style="color: rgb(119,119,119);display: flex;justify-content: space-around;" name='{{$title}}'>
+          <h3>{{print "Track" " " (add $index 1)}}</h3>
+          <p
+            style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">
+            {{.Duration}}</p>
+        </a>
+
+      </div>
+
+      {{end}}
+    </div>
+    {{end}}
+    {{end}}
+
+
+  </section>
+
+  <footer style="height: 60px;"></footer>
+  {{ partial "footer" . }}
+  <p style="display: none;" id="theSpeed">1.0</p>
+  <script>
+
+    var mp3Speed;
+    function speedlow() {
+      var myaudio = document.getElementById('testTone');
+      mp3Speed = 0.5;
+      myaudio.playbackRate = mp3Speed;
+      document.getElementById('theSpeed').innerHTML = mp3Speed;
+
+    }
+
+    function speednormal() {
+      var myaudio = document.getElementById('testTone');
+      mp3Speed = 1.0;
+      myaudio.playbackRate = mp3Speed;
+      document.getElementById('theSpeed').innerHTML = mp3Speed;
+
+    }
+
+    function speedfast() {
+      var myaudio = document.getElementById('testTone');
+      mp3Speed = 2.0;
+      myaudio.playbackRate = mp3Speed;
+      document.getElementById('theSpeed').innerHTML = mp3Speed;
+    }
+
+    function mySong(e) {
+      var trackExpression = document.querySelectorAll('.trackExpression');//選取出陣列     
+      for (var i = 0; i < trackExpression.length; i++) {
+        trackExpression[i].style.color = 'rgb(119,119,119)';
+
+        //挑選出每個track的名稱  選擇片段  當作其h3的class       
+        var eachTrackTitle = trackExpression[i].getAttribute('name');
+
+        trackExpression[i].firstElementChild.classList.add(eachTrackTitle);
+        trackExpression[i].firstElementChild.classList.add(eachTrackTitle);
+      }
+      //為使用者所選擇的track  title上色
+      e.style.color = 'rgb(72,118,175)';
+
+      //觸發其click事件
+      document.getElementById(e.getAttribute('name')).click();
+
+    }
+
+
+    $(function () {
+
       var mp3Speed;
-        function speedlow(){
-        var myaudio = document.getElementById('testTone');        
-          mp3Speed=0.5;
-          myaudio.playbackRate = mp3Speed;          
-          document.getElementById('theSpeed').innerHTML=mp3Speed;
-      
-          }
+      hideCD(2);
 
-      function speednormal(){
-        var myaudio = document.getElementById('testTone');
-          mp3Speed=1.0;
-          myaudio.playbackRate = mp3Speed;             
-         document.getElementById('theSpeed').innerHTML=mp3Speed;
-   
-      }
-  
-      function speedfast(){
-        var myaudio = document.getElementById('testTone');        
-          mp3Speed=2.0;
-          myaudio.playbackRate = mp3Speed;             
-         document.getElementById('theSpeed').innerHTML=mp3Speed;
-      }
-
-         function mySong(e){
-         var trackExpression= document.querySelectorAll('.trackExpression');//選取出陣列     
-            for(var i=0; i<trackExpression.length; i++){
-              trackExpression[i].style.color = 'rgb(119,119,119)'; 
-
-              //挑選出每個track的名稱  選擇片段  當作其h3的class       
-              var eachTrackTitle= trackExpression[i].getAttribute('name');         
-            
-              trackExpression[i].firstElementChild.classList.add(eachTrackTitle);
-              trackExpression[i].firstElementChild.classList.add(eachTrackTitle);
-              }
-          //為使用者所選擇的track  title上色
-         e.style.color='rgb(72,118,175)';    
-         
-         //觸發其click事件
-         document.getElementById(e.getAttribute('name')).click();
-      
-        }
-
-
-      $(function(){
-
-        var mp3Speed;
-        hideCD(2);
-
-        function hideCD(tabIndex) { 
+      function hideCD(tabIndex) {
         trackDiv = document.getElementById(`tab-CD${tabIndex}`);
         trackDiv.style.display = "none";
-        }
+      }
 
-        function showCD(tabIndex) { 
-          trackDiv = document.getElementById(`tab-CD${tabIndex}`);
-          trackDiv.style.display = "block";
-          trackDiv.style.visibility = "visible";
-        }
+      function showCD(tabIndex) {
+        trackDiv = document.getElementById(`tab-CD${tabIndex}`);
+        trackDiv.style.display = "block";
+        trackDiv.style.visibility = "visible";
+      }
 
-        $("#CD1").click(function(){
-          $(this).siblings().removeClass("active");
-          $(this).addClass("active");
-          hideCD(2);
-          showCD(1);
-        })
+      $("#CD1").click(function () {
+        $(this).siblings().removeClass("active");
+        $(this).addClass("active");
+        hideCD(2);
+        showCD(1);
+      })
 
-        $("#CD2").click(function(){
-          $(this).siblings().removeClass("active");
-          $(this).addClass("active");
-          hideCD(1);
-          showCD(2);
-        })
-        $('.playerButton').click(function(e){
-          console.log($(this));
-          $('.playerButton').css('background-color','rgb(239, 239, 239)');
-          $('.playerButton').css('color','gray');
-          $(this).css('background-color','rgb(0,98,204)');
-          $(this).css('color','white');
-          
-        })
-           var audio;
-          var playlist;
-          var tracks;
-          var current;
+      $("#CD2").click(function () {
+        $(this).siblings().removeClass("active");
+        $(this).addClass("active");
+        hideCD(1);
+        showCD(2);
+      })
+      $('.playerButton').click(function (e) {
+        console.log($(this));
+        $('.playerButton').css('background-color', 'rgb(239, 239, 239)');
+        $('.playerButton').css('color', 'gray');
+        $(this).css('background-color', 'rgb(0,98,204)');
+        $(this).css('color', 'white');
 
-          init();
-          function init(){
-        
+      })
+      var audio;
+      var playlist;
+      var tracks;
+      var current;
+
+      init();
+      function init() {
+
+        current = 0;
+        audio = $('audio');
+        playlist = $('#playlist');
+        tracks = playlist.find('li a'); //尋找隱藏起來的playlisy 裡面的li a  
+        len = tracks.length;
+        audio[0].volume = 0.5;//音量大小
+        audio[0].play();  //目前  一開始audio裡面沒有歌曲          
+        playlist.find('a').click(function (e) {  //第一次 就把所有的a 都加入了click事件
+          e.preventDefault();
+          link = $(this); // <a> 標籤
+          current = link.parent().index(); //li 的index
+
+          run($(link), audio[0]); //執行<a>標籤裡 href的mp3  
+        });
+        audio[0].addEventListener('ended', function (e) {
+
+
+          var val = $('input:radio[name="loopType"]:checked').val();
+
+          // console.log('audio[0]=',audio[0]);//此時audio[0]已經換成下一首了 (why???!)????????
+          // console.log('current= ',current); //current 還沒換
+          if (val == "eachMusic") { //選擇全部撥放
+            current++;
+            if (current == len) {  //放到最後一首  就回到第一首開始放
               current = 0;
-              audio = $('audio');           
-              playlist = $('#playlist');            
-              tracks = playlist.find('li a'); //尋找隱藏起來的playlisy 裡面的li a  
-              len = tracks.length;           
-              audio[0].volume = 0.5;//音量大小
-              audio[0].play();  //目前  一開始audio裡面沒有歌曲          
-              playlist.find('a').click(function(e){  //第一次 就把所有的a 都加入了click事件
-                  e.preventDefault();              
-                  link = $(this); // <a> 標籤
-                  current = link.parent().index(); //li 的index
-               
-                  run($(link), audio[0]); //執行<a>標籤裡 href的mp3  
-              });
-              audio[0].addEventListener('ended',function(e){
-
-
-                var val=$('input:radio[name="loopType"]:checked').val();
-        
-                // console.log('audio[0]=',audio[0]);//此時audio[0]已經換成下一首了 (why???!)????????
-                // console.log('current= ',current); //current 還沒換
-                if(val=="eachMusic"){ //選擇全部撥放
-                  current++;             
-                  if(current == len){  //放到最後一首  就回到第一首開始放
-                      current = 0;
-                      link = playlist.find('a')[0];
-                  }else{
-                      link = playlist.find('a')[current];                   
-                  }
-                }
-                else{    //選擇單曲循環
-                  link = playlist.find('a')[current]; 
-                }
-              
-                  run($(link),audio[0]);  
-              });
-
-
-          }
-       
-        
-
-          function run(link, player){        
-           player.src = link.attr('href'); //直接把mp3連結 加到 audio的src屬性     
-         
-           par = link.parent(); // 抓到<li>
-           par.addClass('active').siblings().removeClass('active'); //把目前撥放的<li> 增加active class   //其他的siblings移除active class
-           //audio[0].load();          
-    
-           var speedFloat=parseFloat($('#theSpeed')[0].innerHTML);
-           audio[0].playbackRate=speedFloat;
-           audio[0].play();
-        
-           currentTrack(link.attr('id'));
-          }
-     
-      });
-
-             //目前播放的音軌  hightlight 其background
-             function currentTrack(stringArray){
-
-             var allTracks=document.querySelectorAll('h3');
-             for(var i=0; i<allTracks.length; i++){
-              allTracks[i].style.backgroundColor="#FFFFFF";
-              allTracks[i].parentNode.style.backgroundColor="#ffffff";
-              allTracks[i].parentNode.parentNode.firstElementChild.src="/images/icon_note_g.svg";
-             }
-            var allTracksduration=document.querySelectorAll('p');
-            for(var i=0; i<allTracksduration.length; i++){
-              allTracksduration[i].style.backgroundColor=" rgb(169, 223, 236)";
-              allTracksduration[i].style.color="#ffffff"
-        
+              link = playlist.find('a')[0];
+            } else {
+              link = playlist.find('a')[current];
             }
-            var theTrack = document.getElementsByClassName(stringArray);
-           
-            theTrack[0].style.backgroundColor="rgb(229,236,243)";  
-         
-            theTrack[0].parentNode.style.backgroundColor="rgb(229,236,243)";
-
-            theTrack[0].parentNode.parentNode.firstElementChild.src="/images/icon_note.svg";
-  
-            // theTrack[1].style.backgroundColor="#97CBFF";  //先不單獨改duration的背景色
-            // theTrack[1].style.color="#007979"       
-        
           }
-    </script>
+          else {    //選擇單曲循環
+            link = playlist.find('a')[current];
+          }
+
+          run($(link), audio[0]);
+        });
+
+
+      }
+
+
+
+      function run(link, player) {
+        player.src = link.attr('href'); //直接把mp3連結 加到 audio的src屬性     
+
+        par = link.parent(); // 抓到<li>
+        par.addClass('active').siblings().removeClass('active'); //把目前撥放的<li> 增加active class   //其他的siblings移除active class
+        //audio[0].load();          
+
+        var speedFloat = parseFloat($('#theSpeed')[0].innerHTML);
+        audio[0].playbackRate = speedFloat;
+        audio[0].play();
+
+        currentTrack(link.attr('id'));
+      }
+
+    });
+
+    //目前播放的音軌  hightlight 其background
+    function currentTrack(stringArray) {
+
+      var allTracks = document.querySelectorAll('h3');
+      for (var i = 0; i < allTracks.length; i++) {
+        allTracks[i].style.backgroundColor = "#FFFFFF";
+        allTracks[i].parentNode.style.backgroundColor = "#ffffff";
+        allTracks[i].parentNode.parentNode.firstElementChild.src = "/images/icon_note_g.svg";
+      }
+      var allTracksduration = document.querySelectorAll('p');
+      for (var i = 0; i < allTracksduration.length; i++) {
+        allTracksduration[i].style.backgroundColor = " rgb(169, 223, 236)";
+        allTracksduration[i].style.color = "#ffffff"
+
+      }
+      var theTrack = document.getElementsByClassName(stringArray);
+
+      theTrack[0].style.backgroundColor = "rgb(229,236,243)";
+
+      theTrack[0].parentNode.style.backgroundColor = "rgb(229,236,243)";
+
+      theTrack[0].parentNode.parentNode.firstElementChild.src = "/images/icon_note.svg";
+
+      // theTrack[1].style.backgroundColor="#97CBFF";  //先不單獨改duration的背景色
+      // theTrack[1].style.color="#007979"       
+
+    }
+  </script>
 
 </body>
-</html>
 
+</html>
