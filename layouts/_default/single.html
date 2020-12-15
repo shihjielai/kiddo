@@ -98,7 +98,7 @@
       text-align: right;
       color: #ffffff;
       position: relative;
-      top: -140px;
+      top: -160px;
       /* right: -100px; */
     }
 
@@ -249,17 +249,23 @@
     
       #volume {
         margin-left: 200px;
-        top: -145px;
+        top: -165px;
       }
 
       .warning {
         margin-left: 200px;
-        top: -135px;
+        top: -155px;
       }
 
       #eng {
         margin-left: 198px;
-        top: -165px;
+        top: -185px;
+      }
+
+      #hanlin {
+        transform: scale(0.45);
+        margin-left: -130px;
+        top: -166px;
       }
     }
 
@@ -314,20 +320,25 @@
       position:relative;
      }
 
-
       #volume {
         margin-left: 200px;
-        top: -145px;
+        top: -165px;
       }
 
       .warning {
         margin-left: 200px;
-        top: -135px;
+        top: -155px;
       }
 
       #eng {
         margin-left: 198px;
-        top: -165px;
+        top: -185px;
+      }
+
+      #hanlin {
+        transform: scale(0.45);
+        margin-left: -105px;
+        top: -166px;
       }
 
     }
@@ -387,26 +398,23 @@
 
       #volume {
         margin-left: 180px;
-        top: -145px;
+        top: -165px;
       }
 
       .warning {
         margin-left: 175px;
-        top: -135px;
+        top: -155px;
       }
 
       #eng {
         margin-left: 178px;
-        top: -165px;
+        top: -185px;
       }
 
       #hanlin {
-      height: 10%;
-      position: relative;
-      top: -138px;
-      padding-left: 30px;
-      transform: scale(0.8);
-      z-index: 1000;
+        transform: scale(0.45);
+        margin-left: -72px;
+        top: -166px;
       }
 
     }
@@ -455,12 +463,18 @@
 
       #eng {
         margin-left: 180px;
-        top: -165px;
+        top: -185px;
       }
 
       #volume {
         margin-left: 180px;
-        top: -150px;
+        top: -170px;
+      }
+
+      #hanlin {
+        transform: scale(0.45);
+        margin-left: 28px;
+        top: -166px;
       }
 
       #top_bg {
@@ -498,18 +512,7 @@
 
       .loopType {
         justify-content: center;
-
       }
-
-      #hanlin {
-      height: 10%;
-      position: relative;
-      top: -138px;
-      padding-left: 200px;
-      transform: scale(0.8);
-      z-index: 1000;
-      }
-
     }
 
     @media screen and (max-width: 518px) {
@@ -556,12 +559,18 @@
 
       #eng {
         margin-left: 170px;
-        top: -160px;
+        top: -180px;
       }
 
       #volume {
         margin-left: 170px;
-        top: -150px;
+        top: -170px;
+      }
+
+      #hanlin {
+        transform: scale(0.45);
+        margin-left: 20px;
+        top: -161px;
       }
 
       .warning {
@@ -575,16 +584,6 @@
         left: 25px;
         width: 25px;
         padding-right: 10px;
-      }
-
-
-      #hanlin {
-      height: 10%;
-      position: relative;
-      top: -132.8px;
-      padding-left: 190px;
-      transform: scale(0.8);
-      z-index: 1000;
       }
 
     }
@@ -619,7 +618,7 @@
     <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">      
     {{end}}
     
-    <img id="hanlin" src="/images/hanlin_logo.png">
+    <div id="hanlin"><img src="/images/hanlin_logo.png"></div>
     <div id="eng">國小英語</div>
     
     <div id="volume">{{with (index .Site.Data .File.TranslationBaseName)}} {{.Volume}} {{end}}</div>
