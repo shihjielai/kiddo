@@ -546,7 +546,7 @@
                       <div class="{{.Title}}" style="display: inline-box;position: relative;">                           
                         <img src="/images/icon_note_g.svg" alt="" class="musicImg" > 
                         <a onclick="mySong(this)" class="trackExpression" style="color: rgb(119,119,119);display: flex;justify-content: space-around;" name='{{$title}}' >
-                          <h3>{{print "Track" " " (add $index 1)}}</h3> 
+                          <h3>{{print "Track" " " (printf "%02d" (add $index 1))}}</h3> 
                           <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p>
                         </a>
                       
