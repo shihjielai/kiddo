@@ -111,9 +111,9 @@
     #volume {
         /* letter-spacing: 2px; */
         /* background-color: #f19700; */
-        display: inline-block;
+        /* display: inline-block; */
         margin-left: 200px;
-        text-align: center;
+        /* text-align: center; */
         color: #ffffff;
         position: relative;
         top: -150px;
@@ -349,7 +349,8 @@
       
       <div id="eng">國小英語</div> 
       
-      <h3 id="volume">{{with (index .Site.Data .File.TranslationBaseName)}} {{.Volume}} {{end}}</h3>
+      <div id="volume">{{with (index .Site.Data .File.TranslationBaseName)}} {{.Volume}} {{end}}</div>
+      
       <div class="warning">本網頁提供之音檔僅限購買翰林CD光碟或學用電子書光碟者使用，維護年限為一學年。</div>
       <div class="warning">不得在網路上以任何形式進行公開傳播或下載，違者必究。</div>
       
