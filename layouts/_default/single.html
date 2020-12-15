@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -191,6 +192,7 @@
         transform: scale(0.89);
       }
 
+
       .musicImg {
         z-index: 100;
         position: absolute;
@@ -217,6 +219,7 @@
         padding-left: 100px
       }
 
+    
       #volume {
         margin-left: 200px;
         top: -145px;
@@ -270,19 +273,21 @@
         transform: scale(0.89);
       }
 
-      .musicImg {
-        z-index: 100;
-        position: absolute;
-        top: 25px;
-        left: 100px;
-        width: 25px;
-        padding-right: 10px;
-      }
 
-      .adjustPlayer {
-        display: flex;
-        position: relative;
-      }
+      .musicImg{
+      z-index:100;
+      position: absolute;
+      top:25px;
+      left:100px;
+      width: 25px;
+      padding-right: 10px;
+     }
+     .adjustPlayer{
+      display: flex;
+      height: 30px;
+      position:relative;
+     }
+
 
       #volume {
         margin-left: 200px;
@@ -453,6 +458,7 @@
         justify-content: center;
 
       }
+
     }
 
     @media screen and (max-width: 518px) {
@@ -529,8 +535,22 @@
     #CD1.active,
     #CD2.active {
       background-color: #f19700;
+
+    } 
+    footer p{
+      width:inherit;
+      color:#ffffff;
+      font-size: 3px;
+      font-weight: 10;
+      text-align: center;
     }
-  </style>
+    footer p a{
+      text-decoration: none;
+      color: rgb(61,213,237);
+    }
+ 
+    </style>
+
 </head>
 
 <body>
@@ -603,50 +623,79 @@
       </ul>
       {{end}}
     </div>
+
   </header>
 
+  
+    <section class="main">
 
-  <section class="main">
+     
 
 
-
-
-    {{$title := .Title}}
-    {{with (index .Site.Data .File.TranslationBaseName)}}
-    {{$prefix := .urlPrefix}}
-    <!-- {{$publication := .publication}} -->
-    {{range $index, $cds := .Cds}}
-    {{$Album := (print "CD" (add $index 1)) }}
-    <!-- <h2 style="background-color: brown; color: white">{{.cd}}</h2> -->
-    <div id="tab-{{$Album}}">
-      {{range $index, $element :=.Tracks}}
-      {{$title := (print $Album (add $index 1))}}
-
-      <div class="{{.Title}}" style="display: inline-box;position: relative;">
-        <img src="/images/icon_note_g.svg" alt="" class="musicImg">
-        <a onclick="mySong(this)" class="trackExpression"
-          style="color: rgb(119,119,119);display: flex;justify-content: space-around;" name='{{$title}}'>
-          <h3>{{print "Track" " " (add $index 1)}}</h3>
-          <p
-            style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">
-            {{.Duration}}</p>
-        </a>
-
-      </div>
-
+      {{$title := .Title}} 
+      {{with (index .Site.Data .File.TranslationBaseName)}}
+           {{$prefix := .urlPrefix}}
+           <!-- {{$publication := .publication}} -->
+           {{range $index, $cds := .Cds}}
+                {{$Album := (print "CD" (add $index 1)) }}
+                <!-- <h2 style="background-color: brown; color: white">{{.cd}}</h2> -->
+                 <div id="tab-{{$Album}}">
+                {{range $index, $element :=.Tracks}}
+                      {{$title := (print $Album (add $index 1))}} 
+                     
+                      <div class="{{.Title}}" style="display: inline-box;position: relative;">                           
+                        <img src="/images/icon_note_g.svg" alt="" class="musicImg" > 
+                        <a onclick="mySong(this)" class="trackExpression" style="color: rgb(119,119,119);display: flex;justify-content: space-around;" name='{{$title}}' >
+                          <h3>{{print "Track" " " (printf "%02d" (add $index 1))}}</h3> 
+                          <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p>
+                        </a>
+                      
+                      </div>       
+                                 
+                {{end}}
+              </div>
+           {{end}}
       {{end}}
-    </div>
-    {{end}}
-    {{end}}
+  
+ 
+    
+
+
+
 
 
   </section>
 
-  <footer style="height: 60px;"></footer>
-  {{ partial "footer" . }}
-  <p style="display: none;" id="theSpeed">1.0</p>
+  <footer style="height: 100px;">
+    <P>為獲得最佳瀏覽體驗，建議您使用瀏覽器軟體IE Edge或Google Chrome、Firefox軟體IE Edge或Google Chrome、Firefox。</P>
+    <p>如使用IE瀏覽器瀏覽本行網站，可能部分網頁的呈現會有破圖或版面跑版的情況，某些網頁互動功能無法正確顯示與使用。</p>
+    <p>如有問題請詳閱 <a href="">操作說明</a></p>
+    <P>Copyright © 2020 Hanlin 翰林出版事業股份有限公司</P>
+    <P>語音辨識技術由多普達國際股份有限公司提供</P>
+  </footer>
+ 
+    <p style="display: none;" id="theSpeed" >1.0</p>
+  
   <script>
-
+    window.onload = function() {
+      document.addEventListener('touchstart',function (event) { 
+      if(event.touches.length>1){ 
+        event.preventDefault(); 
+      } 
+    }) 
+    var lastTouchEnd=0; 
+    document.addEventListener('touchend',function (event) { 
+      var now=(new Date()).getTime(); 
+      if(now-lastTouchEnd<=300){ 
+        event.preventDefault(); 
+      } 
+      lastTouchEnd=now; 
+    },false);
+  
+  //  document.addEventListener('gesturestart', function (event) {
+  //    event.preventDefault();
+  //  });
+    }
     var mp3Speed;
     function speedlow() {
       var myaudio = document.getElementById('testTone');
@@ -824,5 +873,6 @@
   </script>
 
 </body>
+
 
 </html>
