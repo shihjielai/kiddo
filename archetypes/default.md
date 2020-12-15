@@ -5,4 +5,3 @@ draft: true
 url: {{ sha1 .File.TranslationBaseName}}
 ---
 
-

@@ -17,7 +17,7 @@
         overflow: hidden;
         margin: 0 auto;
         width: 1040px;
-        height: 210px;
+        height: 180px;
         border-radius: 8px;
         /* height: auto; */
     }
@@ -93,13 +93,13 @@
         letter-spacing: 2px;
         background-color: #f19700;
         display: inline-block;
-        margin-left: 50px;
+        margin-left: 30px;
         border-radius: 18px;
         text-align: center;
         color: #ffffff;
         position: relative;
-        top: -180px;
-      }
+        top: -140px;
+    }
       
     audio {
     width: 100%;
@@ -118,11 +118,31 @@
     justify-content: center;
     color:gray;
   }
-  
+  #volume {
+        /* letter-spacing: 2px; */
+        /* background-color: #f19700; */
+        /* display: inline-block; */
+        margin-left: 200px;
+        /* text-align: center; */
+        color: #ffffff;
+        position: relative;
+        top: -150px;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .warning {
+      display: inline-block;
+      margin-left: 160px;
+      top: -200px;
+      position: relative;
+      font-size: 12px;
+      color: rgb(246, 252, 253);
+      /* font-weight: 400; */
+    }
 
     @media screen and  (max-width: 4096px){
       .header-player{
-        display: inline-block;justify-content: center;
+        display: inline-block;justify-content: center; 
         width: 992px;
         height:120px;
         background-color: rgb(248,248,255);
@@ -152,6 +172,7 @@
         padding-left: 15px;
         transform: scale(0.89);
       }
+
       /* #engText {
         display: inline-block;
         margin-left: -80px;
@@ -180,6 +201,21 @@
     display: flex;
     padding-left:100px
   }
+
+      #volume {
+        margin-left: 200px;
+        top: -157px;
+      }
+      .warning {
+        margin-left: 200px;
+        top: -175px;
+      }
+      #eng {
+        margin-left: 50px;
+      }
+
+
+    }
     }
     @media screen and (max-width: 1199px){
     .header-player{
@@ -209,6 +245,7 @@
         padding-left: 15px;
         transform: scale(0.89);
       }
+
       .musicImg{
       z-index:100;
       position: absolute;
@@ -221,6 +258,19 @@
       display: flex;
       position:relative;
      }
+
+      #volume {
+        margin-left: 200px;
+        top: -155px;
+      }
+      .warning {
+        margin-left: 200px;
+        top: -175px;
+      }
+      #eng {
+        margin-left: 50px;
+      }
+
     }
     @media screen and (max-width: 991px){
       .header-player{
@@ -246,6 +296,7 @@
         padding-left: 15px;
         transform: scale(0.89);
       }
+
       .musicImg{
       z-index:100;
       position: absolute;
@@ -258,10 +309,24 @@
       display: flex;
       position:relative;
      }
+
+      #eng{
+        margin-left: 30px;
+        /* top: -165px; */
+      }
+      #volume {
+        margin-left: 180px;
+        top: -155px;
+      }
+      .warning {
+        margin-left: 180px;
+        top: -175px;
+      }
+
     }
     @media screen and (max-width: 767px){
       .header-player {
-        width: 576px;
+        width: 518px;
         display: block;
         margin: 0 auto;
         height: 150px;
@@ -270,24 +335,36 @@
         width: 116px;
       }
       section.paper, section.main {
-        width: 576px;
+        width: 518px;
       }
       .header-nav {
-        width: 576px;
+        width: 518px;
       }
       footer {
-        width: 576px;
+        width: 518px;
       }
       .cdPages{
-        width: 576px;
+        width: 518px;
       }
       #ReadyGo3 {
         padding-left: 15px;
         transform: scale(0.89);
       }
       #eng {
-        margin-left: 210px;
-        top: -205px;
+        margin-left: 180px;
+        top: -165px;
+      }
+      #volume {
+        margin-left: 180px;
+        top: -175px;
+      }
+      #top_bg {
+        transform: scale(0.3);
+        padding-top: 13px;
+        padding-right: 10px;
+      }
+      .warning {
+        display: none;
       }
      .musicImg{
       z-index:100;
@@ -338,16 +415,23 @@
       #top_bg {
         transform: scale(0.3);
         padding-top: 13px;
-        padding-right: 30px;
+        padding-right: 10px;
       }
       #ReadyGo3 {
         padding-left: 15px;
-        margin-top: -175px;
+        margin-top: -3px;
         transform: scale(0.9);
       }
       #eng {
-        margin-left: 40px;
-        top: -180px;
+        margin-left: 170px;
+        top: -170px;
+      }
+      #volume {
+        margin-left: 170px;
+        top: -190px;
+      }
+      .warning {
+        display: none;
       }
       .musicImg{
       z-index:100;
@@ -374,7 +458,7 @@
 </head>
 <body>
     <header class="header-nav">
-      
+      <!-- <h3>Rock</h3> -->
       <!-- {{with (index .Site.Data .File.TranslationBaseName)}}
         <img src="{{.VolumeImage}}" alt="" style="width: 20%;">
       {{end}} -->
@@ -382,10 +466,16 @@
       <img id="top_bg" src="/images/top_bg.png" style="float: right; transform: scale(1.599); height: auto;">
       {{with (index .Site.Data .File.TranslationBaseName)}}
       <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">
-      {{end}}
       
-      <div id="eng" >國小英語</div> 
-      <!-- <div id="engText"></div> -->
+      {{end}}
+      <div id="eng">國小英語</div> 
+      
+      <div id="volume">{{with (index .Site.Data .File.TranslationBaseName)}} {{.Volume}} {{end}}</div>
+      
+      <div class="warning">本網頁提供之音檔僅限購買翰林CD光碟或學用電子書光碟者使用，維護年限為一學年。</div>
+      <div class="warning">不得在網路上以任何形式進行公開傳播或下載，違者必究。</div>
+      
+
     </header>
     <div class="cdPages" style="margin: 0px auto">
         <div id="CD1" class="active">CD1</div>
@@ -444,6 +534,7 @@
            <!-- {{$publication := .publication}} -->
            {{range $index, $cds := .Cds}}
                 {{$Album := (print "CD" (add $index 1)) }}
+                <!-- <h2 style="background-color: brown; color: white">{{.cd}}</h2> -->
                  <div id="tab-{{$Album}}">
                 {{range $index, $element :=.Tracks}}
                       {{$title := (print $Album (add $index 1))}} 
