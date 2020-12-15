@@ -33,14 +33,7 @@
       /* overflow-y: hidden; */
     }
 
-    footer {
-      height: 8%;
-      background-color: rgb(59, 125, 185);
-      box-shadow: 2px 2px 5px cadetblue;
-      margin: 0 auto;
-      width: 995px;
-    }
-
+  
     body {
       display: flex;
       flex-direction: column;
@@ -148,6 +141,25 @@
       /* font-weight: 400; */
     }
 
+    footer {
+      height: 100px;
+      background-color: rgb(59, 125, 185);
+      box-shadow: 2px 2px 5px cadetblue;
+      margin: 0 auto;
+      width: 995px;
+    }
+
+    footer p{
+      width:inherit;
+      color:#ffffff;
+      font-size: 5px;
+      font-weight: 10;
+      text-align: center;
+      }
+      footer p a{
+        text-decoration: none;
+        color: rgb(61,213,237);
+      }
     @media screen and (max-width: 4096px) {
       .header-player {
         display: inline-block;
@@ -173,9 +185,12 @@
       }
 
       footer {
+        height:80px;
         width: 992px;
       }
-
+      footer p{
+      font-size: 5px;
+      }
       .cdPages {
         width: 992px;
       }
@@ -399,7 +414,14 @@
 
       footer {
         width: 518px;
+        height: 80px;
       }
+
+
+    footer p{
+      font-size: 5px;
+      }
+  
 
       .cdPages {
         width: 518px;
@@ -523,6 +545,8 @@
         width: 25px;
         padding-right: 10px;
       }
+
+ 
     }
 
     #CD1:hover,
@@ -536,17 +560,7 @@
       background-color: #f19700;
 
     } 
-    footer p{
-      width:inherit;
-      color:#ffffff;
-      font-size: 3px;
-      font-weight: 10;
-      text-align: center;
-    }
-    footer p a{
-      text-decoration: none;
-      color: rgb(61,213,237);
-    }
+ 
  
     </style>
 
@@ -665,7 +679,7 @@
 
   </section>
 
-  <footer style="height: 100px;">
+  <footer >
     <P>為獲得最佳瀏覽體驗，建議您使用瀏覽器軟體IE Edge或Google Chrome、Firefox軟體IE Edge或Google Chrome、Firefox。</P>
     <p>如使用IE瀏覽器瀏覽本行網站，可能部分網頁的呈現會有破圖或版面跑版的情況，某些網頁互動功能無法正確顯示與使用。</p>
     <p>如有問題請詳閱 <a href="">操作說明</a></p>
@@ -714,7 +728,7 @@
 
     function speedfast() {
       var myaudio = document.getElementById('testTone');
-      mp3Speed = 2.0;
+      mp3Speed = 1.5;
       myaudio.playbackRate = mp3Speed;
       document.getElementById('theSpeed').innerHTML = mp3Speed;
     }
@@ -851,12 +865,12 @@
         allTracks[i].parentNode.style.backgroundColor = "#ffffff";
         allTracks[i].parentNode.parentNode.firstElementChild.src = "/images/icon_note_g.svg";
       }
-      var allTracksduration = document.querySelectorAll('p');
-      for (var i = 0; i < allTracksduration.length; i++) {
-        allTracksduration[i].style.backgroundColor = " rgb(169, 223, 236)";
-        allTracksduration[i].style.color = "#ffffff"
+      // var allTracksduration = document.querySelectorAll('p');
+      // for (var i = 0; i < allTracksduration.length; i++) {
+      //   allTracksduration[i].style.backgroundColor = " rgb(169, 223, 236)";
+      //   allTracksduration[i].style.color = "#ffffff"
 
-      }
+      // }
       var theTrack = document.getElementsByClassName(stringArray);
 
       theTrack[0].style.backgroundColor = "rgb(229,236,243)";
