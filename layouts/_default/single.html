@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -676,7 +676,25 @@
     <p style="display: none;" id="theSpeed" >1.0</p>
   
   <script>
-
+    window.onload = function() {
+      document.addEventListener('touchstart',function (event) { 
+      if(event.touches.length>1){ 
+        event.preventDefault(); 
+      } 
+    }) 
+    var lastTouchEnd=0; 
+    document.addEventListener('touchend',function (event) { 
+      var now=(new Date()).getTime(); 
+      if(now-lastTouchEnd<=300){ 
+        event.preventDefault(); 
+      } 
+      lastTouchEnd=now; 
+    },false);
+  
+  //  document.addEventListener('gesturestart', function (event) {
+  //    event.preventDefault();
+  //  });
+    }
     var mp3Speed;
     function speedlow() {
       var myaudio = document.getElementById('testTone');
