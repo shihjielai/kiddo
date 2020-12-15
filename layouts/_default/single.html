@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -87,17 +88,18 @@
     }
 
     #eng {
-      width: 108px;
+      width: 116px;
       height: 28px;
-      letter-spacing: 2px;
+      letter-spacing: 2.5px;
       background-color: #f19700;
       /* display: inline-block; */
       margin-left: 30px;
-      border-radius: 18px;
-      text-align: center;
+      border-radius: 11px;
+      text-align: right;
       color: #ffffff;
       position: relative;
       top: -140px;
+      /* right: -100px; */
     }
 
     audio {
@@ -141,6 +143,7 @@
       /* font-weight: 400; */
     }
 
+<<<<<<< HEAD
     footer {
       height: 100px;
       background-color: rgb(59, 125, 185);
@@ -160,6 +163,17 @@
         text-decoration: none;
         color: rgb(61,213,237);
       }
+=======
+    #hanlin {
+      height: 10%;
+      position: relative;
+      top: -138px;
+      padding-left: 52px;
+      transform: scale(0.8);
+      z-index: 1000;
+    }
+
+>>>>>>> 15e9d711c8f7dfb79b5a31d23636662262f4419d
     @media screen and (max-width: 4096px) {
       .header-player {
         display: inline-block;
@@ -205,8 +219,7 @@
         padding-left: 15px;
         transform: scale(0.89);
       }
-
-
+      
       .musicImg {
         z-index: 100;
         position: absolute;
@@ -286,7 +299,6 @@
         padding-left: 15px;
         transform: scale(0.89);
       }
-
 
       .musicImg{
       z-index:100;
@@ -388,6 +400,15 @@
         top: -165px;
       }
 
+      #hanlin {
+      height: 10%;
+      position: relative;
+      top: -138px;
+      padding-left: 30px;
+      transform: scale(0.8);
+      z-index: 1000;
+      }
+
     }
 
     @media screen and (max-width: 767px) {
@@ -480,6 +501,15 @@
 
       }
 
+      #hanlin {
+      height: 10%;
+      position: relative;
+      top: -138px;
+      padding-left: 200px;
+      transform: scale(0.8);
+      z-index: 1000;
+      }
+
     }
 
     @media screen and (max-width: 518px) {
@@ -546,7 +576,16 @@
         padding-right: 10px;
       }
 
- 
+
+      #hanlin {
+      height: 10%;
+      position: relative;
+      top: -132.8px;
+      padding-left: 190px;
+      transform: scale(0.8);
+      z-index: 1000;
+      }
+
     }
 
     #CD1:hover,
@@ -572,16 +611,18 @@
     <!-- {{with (index .Site.Data .File.TranslationBaseName)}}
         <img src="{{.VolumeImage}}" alt="" style="width: 20%;">
       {{end}} -->
-
+     
+    
     <img id="top_bg" src="/images/top_bg.png" style="float: right; transform: scale(1.599); height: auto;">
     {{with (index .Site.Data .File.TranslationBaseName)}}
-    <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">
-
+    <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">      
     {{end}}
+    
+    <img id="hanlin" src="/images/hanlin_logo.png">
     <div id="eng">國小英語</div>
-
+    
     <div id="volume">{{with (index .Site.Data .File.TranslationBaseName)}} {{.Volume}} {{end}}</div>
-
+    
     <div class="warning">本網頁提供之音檔僅限購買翰林CD光碟或學用電子書光碟者使用，維護年限為一學年。</div>
     <div class="warning">不得在網路上以任何形式進行公開傳播或下載，違者必究。</div>
 
@@ -886,5 +927,6 @@
   </script>
 
 </body>
+
 
 </html>
