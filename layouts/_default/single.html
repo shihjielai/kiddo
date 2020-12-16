@@ -144,7 +144,7 @@
 
 
     footer {
-      height: 100px;
+      height: 95px;
       background-color: rgb(59, 125, 185);
       box-shadow: 2px 2px 5px cadetblue;
       margin: 0 auto;
@@ -153,10 +153,11 @@
 
     footer p {
       width: inherit;
-      color: #ffffff;
-      font-size: 5px;
+      color: 	#FCFCFC;
+      font-size: 3.5px;
       font-weight: 10;
       text-align: center;
+      line-height:11px;
     }
 
     footer p a {
@@ -204,7 +205,7 @@
       }
 
       footer p {
-        font-size: 5px;
+        font-size: 3.5px;
       }
 
       .cdPages {
@@ -262,6 +263,12 @@
       #eng {
         margin-left: 198px;
         top: -165px;
+      }
+
+      .trackExpression{
+        color: rgb(119,119,119);
+        display: flex;
+        justify-content: space-around;
       }
     }
 
@@ -411,7 +418,8 @@
         transform: scale(0.8);
         z-index: 1000;
       }
-
+  
+      
     }
 
     @media screen and (max-width: 767px) {
@@ -441,11 +449,11 @@
         height: 80px;
       }
 
-
-      footer p {
-        font-size: 5px;
+      footer p{
+        width:90%;
+        margin:0 auto;
+        font-size:3px;
       }
-
 
       .cdPages {
         width: 518px;
@@ -513,7 +521,9 @@
         transform: scale(0.8);
         z-index: 1000;
       }
-
+      .trackExpression{
+        justify-content: space-evenly;
+      }
     }
 
     @media screen and (max-width: 518px) {
@@ -621,10 +631,11 @@
       .musicImg {
         z-index: 100;
         position: absolute;
-        top: 22px;
+        top: 24px;
         left: 15px;
-        width: 25px;
+        width: 21px;
         padding-right: 10px;
+        margin-right:2px;
       }
 
       .trackExpression {
@@ -745,7 +756,7 @@
       <div class="{{.Title}}" style="display: inline-box;position: relative;">
         <img src="/images/icon_note_g.svg" alt="" class="musicImg">
         <a onclick="mySong(this)" class="trackExpression"
-          style="color: rgb(119,119,119);display: flex;justify-content: space-around;" name='{{$title}}'>
+           name='{{$title}}'>
           <h3>{{print "Track" " " (printf "%02d" (add $index 1))}}</h3>
           <p
             style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">
