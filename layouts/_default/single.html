@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +33,7 @@
       /* overflow-y: hidden; */
     }
 
-  
+
     body {
       display: flex;
       flex-direction: column;
@@ -152,17 +151,18 @@
       width: 995px;
     }
 
-    footer p{
-      width:inherit;
-      color:#ffffff;
+    footer p {
+      width: inherit;
+      color: #ffffff;
       font-size: 5px;
       font-weight: 10;
       text-align: center;
-      }
-      footer p a{
-        text-decoration: none;
-        color: rgb(61,213,237);
-      }
+    }
+
+    footer p a {
+      text-decoration: none;
+      color: rgb(61, 213, 237);
+    }
 
     #hanlin {
       height: 10%;
@@ -198,13 +198,15 @@
         width: 992px;
       }
 
-      footer{
-        height:80px;
+      footer {
+        height: 80px;
         width: 992px;
       }
-      footer p{
-      font-size: 5px;
+
+      footer p {
+        font-size: 5px;
       }
+
       .cdPages {
         width: 992px;
       }
@@ -219,7 +221,7 @@
         padding-left: 15px;
         transform: scale(0.89);
       }
-      
+
       .musicImg {
         z-index: 100;
         position: absolute;
@@ -246,7 +248,7 @@
         padding-left: 100px
       }
 
-    
+
       #volume {
         margin-left: 200px;
         top: -145px;
@@ -300,19 +302,20 @@
         transform: scale(0.89);
       }
 
-      .musicImg{
-      z-index:100;
-      position: absolute;
-      top:25px;
-      left:100px;
-      width: 25px;
-      padding-right: 10px;
-     }
-     .adjustPlayer{
-      display: flex;
-      height: 30px;
-      position:relative;
-     }
+      .musicImg {
+        z-index: 100;
+        position: absolute;
+        top: 25px;
+        left: 100px;
+        width: 25px;
+        padding-right: 10px;
+      }
+
+      .adjustPlayer {
+        display: flex;
+        height: 30px;
+        position: relative;
+      }
 
 
       #volume {
@@ -401,12 +404,12 @@
       }
 
       #hanlin {
-      height: 10%;
-      position: relative;
-      top: -138px;
-      padding-left: 30px;
-      transform: scale(0.8);
-      z-index: 1000;
+        height: 10%;
+        position: relative;
+        top: -138px;
+        padding-left: 30px;
+        transform: scale(0.8);
+        z-index: 1000;
       }
 
     }
@@ -439,10 +442,10 @@
       }
 
 
-    footer p{
-      font-size: 5px;
+      footer p {
+        font-size: 5px;
       }
-  
+
 
       .cdPages {
         width: 518px;
@@ -496,19 +499,19 @@
         /* margin-right: 50px; */
       }
 
-  
+
       .loopType {
         justify-content: center;
 
       }
 
       #hanlin {
-      height: 10%;
-      position: relative;
-      top: -138px;
-      padding-left: 200px;
-      transform: scale(0.8);
-      z-index: 1000;
+        height: 10%;
+        position: relative;
+        top: -138px;
+        padding-left: 200px;
+        transform: scale(0.8);
+        z-index: 1000;
       }
 
     }
@@ -580,34 +583,35 @@
 
 
       #hanlin {
-      height: 10%;
-      position: relative;
-      top: -132.8px;   
-      padding-left: 190px;
-      transform: scale(0.8);
-      z-index: 1000;
+        height: 10%;
+        position: relative;
+        top: -132.8px;
+        padding-left: 190px;
+        transform: scale(0.8);
+        z-index: 1000;
       }
 
     }
-    @media screen and (max-width: 390px){
+
+    @media screen and (max-width: 390px) {
       .playerButton {
-      padding: 3px 0;
-      width: 50px;
+        padding: 3px 0;
+        width: 50px;
 
-      border: hidden;
-      display: flex;
-      justify-content: center;
-      color: gray;
-    }
+        border: hidden;
+        display: flex;
+        justify-content: center;
+        color: gray;
+      }
 
-    .loopType {
+      .loopType {
         padding-left: 0px
       }
 
       .speedDiv {
         position: relative;
         display: flex;
-        left:10px;
+        left: 10px;
         justify-content: center;
         margin-top: 5px;
         /* margin-left: -20px; */
@@ -623,10 +627,10 @@
         padding-right: 10px;
       }
 
-      .trackExpression{
+      .trackExpression {
         margin-left: 15px;
       }
-     
+
     }
 
 
@@ -641,10 +645,8 @@
     #CD2.active {
       background-color: #f19700;
 
-    } 
- 
- 
-    </style>
+    }
+  </style>
 
 </head>
 
@@ -654,18 +656,18 @@
     <!-- {{with (index .Site.Data .File.TranslationBaseName)}}
         <img src="{{.VolumeImage}}" alt="" style="width: 20%;">
       {{end}} -->
-     
-    
+
+
     <img id="top_bg" src="/images/top_bg.png" style="float: right; transform: scale(1.599); height: auto;">
     {{with (index .Site.Data .File.TranslationBaseName)}}
-    <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">      
+    <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">
     {{end}}
-    
+
     <img id="hanlin" src="/images/hanlin_logo.png">
     <div id="eng">國小英語</div>
-    
+
     <div id="volume">{{with (index .Site.Data .File.TranslationBaseName)}} {{.Volume}} {{end}}</div>
-    
+
     <div class="warning">本網頁提供之音檔僅限購買翰林CD光碟或學用電子書光碟者使用，維護年限為一學年。</div>
     <div class="warning">不得在網路上以任何形式進行公開傳播或下載，違者必究。</div>
 
@@ -723,39 +725,42 @@
 
   </header>
 
-  
-    <section class="main">
 
-     
+  <section class="main">
 
 
-      {{$title := .Title}} 
-      {{with (index .Site.Data .File.TranslationBaseName)}}
-           {{$prefix := .urlPrefix}}
-           <!-- {{$publication := .publication}} -->
-           {{range $index, $cds := .Cds}}
-                {{$Album := (print "CD" (add $index 1)) }}
-                <!-- <h2 style="background-color: brown; color: white">{{.cd}}</h2> -->
-                 <div id="tab-{{$Album}}">
-                {{range $index, $element :=.Tracks}}
-                      {{$title := (print $Album (add $index 1))}} 
-                     
-                      <div class="{{.Title}}" style="display: inline-box;position: relative;">                           
-                        <img src="/images/icon_note_g.svg" alt="" class="musicImg" > 
-                        <a onclick="mySong(this)" class="trackExpression" style="color: rgb(119,119,119);display: flex;justify-content: space-around;" name='{{$title}}' >
-                          <h3>{{print "Track" " " (printf "%02d" (add $index 1))}}</h3> 
-                          <p style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">{{.Duration}}</p>
-                        </a>
-                      
-                      </div>       
-                                 
-                {{end}}
-              </div>
-           {{end}}
+
+
+    {{$title := .Title}}
+    {{with (index .Site.Data .File.TranslationBaseName)}}
+    {{$prefix := .urlPrefix}}
+    <!-- {{$publication := .publication}} -->
+    {{range $index, $cds := .Cds}}
+    {{$Album := (print "CD" (add $index 1)) }}
+    <!-- <h2 style="background-color: brown; color: white">{{.cd}}</h2> -->
+    <div id="tab-{{$Album}}">
+      {{range $index, $element :=.Tracks}}
+      {{$title := (print $Album (add $index 1))}}
+
+      <div class="{{.Title}}" style="display: inline-box;position: relative;">
+        <img src="/images/icon_note_g.svg" alt="" class="musicImg">
+        <a onclick="mySong(this)" class="trackExpression"
+          style="color: rgb(119,119,119);display: flex;justify-content: space-around;" name='{{$title}}'>
+          <h3>{{print "Track" " " (printf "%02d" (add $index 1))}}</h3>
+          <p
+            style="color: #ffffff;margin-left: 20px;background-color: rgb(169, 223, 236);border-radius: 10%;width: 80px;display: flex;justify-content: center;align-items: center;">
+            {{.Duration}}</p>
+        </a>
+
+      </div>
+
       {{end}}
-  
- 
-    
+    </div>
+    {{end}}
+    {{end}}
+
+
+
 
 
 
@@ -763,35 +768,35 @@
 
   </section>
 
-  <footer >
+  <footer>
     <P>為獲得最佳瀏覽體驗，建議您使用瀏覽器軟體IE Edge或Google Chrome、Firefox軟體IE Edge或Google Chrome、Firefox。</P>
     <p>如使用IE瀏覽器瀏覽本行網站，可能部分網頁的呈現會有破圖或版面跑版的情況，某些網頁互動功能無法正確顯示與使用。</p>
     <p>如有問題請詳閱 <a href="">操作說明</a></p>
     <P>Copyright © 2020 Hanlin 翰林出版事業股份有限公司</P>
     <P>語音辨識技術由多普達國際股份有限公司提供</P>
   </footer>
- 
-    <p style="display: none;" id="theSpeed" >1.0</p>
-  
+
+  <p style="display: none;" id="theSpeed">1.0</p>
+
   <script>
-    window.onload = function() {
-      document.addEventListener('touchstart',function (event) { 
-      if(event.touches.length>1){ 
-        event.preventDefault(); 
-      } 
-    }) 
-    var lastTouchEnd=0; 
-    document.addEventListener('touchend',function (event) { 
-      var now=(new Date()).getTime(); 
-      if(now-lastTouchEnd<=300){ 
-        event.preventDefault(); 
-      } 
-      lastTouchEnd=now; 
-    },false);
-  
-  //  document.addEventListener('gesturestart', function (event) {
-  //    event.preventDefault();
-  //  });
+    window.onload = function () {
+      document.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      })
+      var lastTouchEnd = 0;
+      document.addEventListener('touchend', function (event) {
+        var now = (new Date()).getTime();
+        if (now - lastTouchEnd <= 300) {
+          event.preventDefault();
+        }
+        lastTouchEnd = now;
+      }, false);
+
+      //  document.addEventListener('gesturestart', function (event) {
+      //    event.preventDefault();
+      //  });
     }
     var mp3Speed;
     function speedlow() {
