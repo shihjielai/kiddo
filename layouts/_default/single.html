@@ -172,7 +172,7 @@
       padding-left: 52px;
       transform: scale(0.8);
       z-index: 1000;
-      border: 1px red solid;
+
     }
 
 
@@ -221,9 +221,11 @@
       }
 
       #ReadyGo3 {
+      
         padding-left: 15px;
         transform: scale(0.89);
-        border:1px red solid;
+        z-index:200;
+
       }
 
       .musicImg {
@@ -718,9 +720,13 @@
       }
       #top_bg {
         z-index: -100;
-        margin-top: -200px;
+
+        /* margin-top: -200px; */
       }
+     
     }
+
+
 
     @media screen and (max-width: 440px) {
       #eng {
@@ -760,7 +766,7 @@
       }
       #ReadyGo3 {
         padding-left: 15px;
-        margin-top: -3px;
+        margin-top:3x;
         /* top: 20px; */
         transform: scale(0.9);
       }
@@ -956,11 +962,11 @@
         <img src="{{.VolumeImage}}" alt="" style="width: 20%;">
       {{end}} -->
 
-
+      <img id="top_bg" src="/images/top_bg.png" style="float: right; transform: scale(1.599); height: auto;">
       {{with (index .Site.Data .File.TranslationBaseName)}}
       <img src="{{.VolumeImage}}" id="ReadyGo3" alt="" style="height: 100%; overflow: hidden;">
       {{end}}
-      <img id="top_bg" src="/images/top_bg.png" style="float: right; transform: scale(1.599); height: auto;">
+      
       <div id="hanlin"><img src="/images/hanlin_logo.png"></div>
       <div id="eng">國小英語</div>
       
